@@ -1,0 +1,790 @@
+skills:
+  - name: "OpenAI Codex Agent Skills"
+    url: "https://developers.openai.com/codex/skills"
+    description: "Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets."
+    platform: ["Codex"]
+    category: ["AI Coding", "MCP & Tool Use"]
+    tags: ["codex", "skill-format", "workflow", "progressive-disclosure"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Follow the Codex Skills documentation."
+    why_awesome: "The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable."
+    type: "Skill Format"
+    input: "Task-specific workflow requirements and optional helper scripts."
+    output: "A reusable SKILL.md package for Codex."
+    tools: ["Codex"]
+    safety_notes: "Keep descriptions narrow and document tool permissions."
+    featured: true
+
+  - name: "Anthropic Agent Skills"
+    url: "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"
+    description: "Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API."
+    platform: ["Claude", "Claude Code"]
+    category: ["AI Coding", "Design & Media", "Writing & Content"]
+    tags: ["claude", "agent-skills", "skill-format", "code-execution"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Use Claude product settings, Claude Code, or the Skills API."
+    why_awesome: "Explains the production model for skills, including document skills, custom uploads, and code-execution containers."
+    type: "Skill Format"
+    input: "Domain workflow, files, and skill metadata."
+    output: "Claude-compatible custom skill."
+    tools: ["Claude", "Claude Code"]
+    safety_notes: "Treat executable skill code as privileged automation."
+    featured: true
+
+  - name: "Anthropic Skills Repository"
+    url: "https://github.com/anthropics/skills"
+    description: "Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows."
+    platform: ["Claude", "Claude Code"]
+    category: ["Writing & Content", "Data Analysis", "Design & Media", "AI Coding"]
+    tags: ["examples", "pdf", "docx", "xlsx", "pptx", "skill-patterns"]
+    maturity: "recommended"
+    license: "Mixed"
+    maintained: true
+    install: "Copy or adapt a skill folder after reviewing its license and README."
+    why_awesome: "A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets."
+    type: "Skill Collection"
+    input: "Files, documents, or workflow requests depending on the skill."
+    output: "Specialized document, coding, or workflow results."
+    tools: ["Claude", "Claude Code"]
+    safety_notes: "Some document skills are source-available rather than open source; check licenses before reuse."
+    featured: true
+
+  - name: "Open Agent Skills Standard"
+    url: "https://agentskills.io/home"
+    description: "Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets."
+    platform: ["Codex", "Claude Code", "General Agent Skills"]
+    category: ["MCP & Tool Use", "Agent Instructions"]
+    tags: ["standard", "skill-format", "portable-skills"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Create a folder containing SKILL.md and supporting resources."
+    why_awesome: "Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files."
+    type: "Standard"
+    input: "Skill metadata and workflow instructions."
+    output: "Portable Agent Skill package."
+    tools: []
+    safety_notes: "Portable format does not make a skill safe; review scripts and permissions."
+    featured: true
+
+  - name: "AGENTS.md"
+    url: "https://agents.md/"
+    description: "A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints."
+    platform: ["Codex", "GitHub Copilot", "Cursor", "General Agent Skills"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["agents-md", "project-instructions", "coding-agent", "repo-context"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Add AGENTS.md at the repository root, with nested files for path-specific guidance where supported."
+    why_awesome: "The most portable project-instruction format for coding agents, easy to version and review."
+    type: "Instruction Format"
+    input: "Project setup, coding style, verification commands, and workflow rules."
+    output: "Repository-level context for agents."
+    tools: ["Codex", "GitHub Copilot", "Cursor"]
+    safety_notes: "Avoid secrets and avoid granting broad destructive permissions by default."
+    featured: true
+
+  - name: "Codex AGENTS.md Guide"
+    url: "https://developers.openai.com/codex/guides/agents-md"
+    description: "Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides."
+    platform: ["Codex"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["agents-md", "codex", "project-context", "instruction-precedence"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Create AGENTS.md in the Codex home directory or repository."
+    why_awesome: "Useful when teams need predictable instruction layering across global and project scopes."
+    type: "Instruction Guide"
+    input: "Global and project-specific agent instructions."
+    output: "Consistent Codex behavior across repositories."
+    tools: ["Codex"]
+    safety_notes: "Put stricter local constraints closer to the files they govern."
+
+  - name: "GitHub Copilot Repository Instructions"
+    url: "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions"
+    description: "Official GitHub documentation for repository-wide and path-specific Copilot custom instructions."
+    platform: ["GitHub Copilot"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["copilot", "instructions", "github", "repository-standards"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Add .github/copilot-instructions.md and optional .github/instructions/*.instructions.md files."
+    why_awesome: "Turns coding standards, build steps, and review expectations into versioned agent context."
+    type: "Instruction Guide"
+    input: "Repository coding standards and path-specific rules."
+    output: "Copilot-aware repo instructions."
+    tools: ["GitHub Copilot", "VS Code"]
+    safety_notes: "Keep instructions actionable and avoid embedding credentials."
+
+  - name: "VS Code Copilot Custom Instructions"
+    url: "https://code.visualstudio.com/docs/agent-customization/custom-instructions"
+    description: "VS Code guide for custom instructions, reusable prompt files, and organizing Copilot guidance by task or language."
+    platform: ["GitHub Copilot", "VS Code"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["vscode", "copilot", "instructions", "prompt-files"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Configure instruction and prompt files in VS Code."
+    why_awesome: "Good reference for splitting global standards from language-specific and task-specific guidance."
+    type: "Instruction Guide"
+    input: "Editor, language, or task-specific guidance."
+    output: "Reusable Copilot behavior in VS Code."
+    tools: ["GitHub Copilot", "VS Code"]
+    safety_notes: "Review workspace instructions before running agent-generated commands."
+
+  - name: "Cursor Rules"
+    url: "https://cursor.com/docs/rules"
+    description: "Official Cursor documentation for project, team, user rules, and AGENTS.md support."
+    platform: ["Cursor"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["cursor", "rules", "mdc", "project-instructions"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Create project rules under .cursor/rules or configure team/user rules in Cursor."
+    why_awesome: "Useful for making Cursor behave consistently inside large repos and framework-specific codebases."
+    type: "Instruction Guide"
+    input: "Project conventions, architecture boundaries, and task-specific coding rules."
+    output: "Cursor rule files or settings."
+    tools: ["Cursor"]
+    safety_notes: "Prefer scoped rules for high-risk areas such as migrations or infra."
+
+  - name: "Gemini CLI GEMINI.md"
+    url: "https://geminicli.com/docs/cli/gemini-md/"
+    description: "Official Gemini CLI documentation for hierarchical GEMINI.md context files and modular imports."
+    platform: ["Gemini CLI"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["gemini", "gemini-md", "context", "imports"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Add GEMINI.md at global, workspace, or component scope."
+    why_awesome: "Shows how to layer agent context without repeating instructions in every prompt."
+    type: "Instruction Guide"
+    input: "Project context, coding style, persona, or component-specific guidance."
+    output: "Hierarchical Gemini CLI context."
+    tools: ["Gemini CLI"]
+    safety_notes: "Use imports carefully so agents do not load stale or unrelated context."
+
+  - name: "GitHub Awesome Copilot"
+    url: "https://github.com/github/awesome-copilot"
+    description: "Community collection of Copilot custom agents, instructions, prompts, skills, hooks, workflows, and plugins."
+    platform: ["GitHub Copilot", "VS Code"]
+    category: ["Agent Instructions", "AI Coding", "MCP & Tool Use"]
+    tags: ["copilot", "awesome-list", "custom-agents", "instructions"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Copy selected instruction, agent, or prompt files into your repo after review."
+    why_awesome: "A broad reference catalog for how the Copilot ecosystem packages reusable agent behavior."
+    type: "Collection"
+    input: "Use case-specific instruction or agent needs."
+    output: "Copilot-ready instructions, prompts, and agents."
+    tools: ["GitHub Copilot", "VS Code"]
+    safety_notes: "Review copied files for tool permissions and project fit."
+    featured: true
+
+  - name: "Awesome Cursor Rules"
+    url: "https://github.com/PatrickJS/awesome-cursorrules"
+    description: "Community collection of Cursor rules for frameworks, languages, libraries, and project conventions."
+    platform: ["Cursor"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["cursor", "rules", "frameworks", "templates"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Copy relevant .mdc rules into .cursor/rules after adapting them to your repo."
+    why_awesome: "Useful as a pattern bank for writing project-aware Cursor rules instead of generic prompts."
+    type: "Collection"
+    input: "Framework or repo-specific coding conventions."
+    output: "Cursor project rules."
+    tools: ["Cursor"]
+    safety_notes: "Do not paste rules blindly; stale framework advice can make agents worse."
+
+  - name: "Model Context Protocol Servers"
+    url: "https://github.com/modelcontextprotocol/servers"
+    description: "Reference MCP server implementations maintained for demonstrating MCP features, SDK usage, tools, prompts, and resources."
+    platform: ["MCP", "General Agent Skills"]
+    category: ["MCP & Tool Use", "DevOps", "Data Analysis"]
+    tags: ["mcp", "servers", "reference-implementation", "tools"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Follow the repository README for each reference server."
+    why_awesome: "Best starting point for understanding the shape of MCP servers without relying on vendor-specific wrappers."
+    type: "MCP Recipe"
+    input: "Host configuration and server-specific credentials or resources."
+    output: "MCP tools, prompts, and resources exposed to agent hosts."
+    tools: ["Model Context Protocol"]
+    safety_notes: "Reference servers are educational; apply your own security model before production use."
+    featured: true
+
+  - name: "MCP TypeScript SDK"
+    url: "https://github.com/modelcontextprotocol/typescript-sdk"
+    description: "Official TypeScript SDK for building MCP servers and clients."
+    platform: ["MCP", "Node.js"]
+    category: ["MCP & Tool Use", "DevOps"]
+    tags: ["mcp", "typescript", "sdk", "server"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install the MCP TypeScript SDK from npm as documented in the repository."
+    why_awesome: "A practical foundation for writing strongly typed tool servers for coding agents."
+    type: "Tool SDK"
+    input: "Tool definitions, schemas, and server transport."
+    output: "MCP-compatible server or client."
+    tools: ["Model Context Protocol", "Node.js"]
+    safety_notes: "Validate tool inputs and isolate file or network access."
+
+  - name: "MCP Python SDK"
+    url: "https://github.com/modelcontextprotocol/python-sdk"
+    description: "Official Python SDK for implementing MCP servers and clients."
+    platform: ["MCP", "Python"]
+    category: ["MCP & Tool Use", "Data Analysis", "DevOps"]
+    tags: ["mcp", "python", "sdk", "server"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install the MCP Python SDK as documented in the repository."
+    why_awesome: "Good fit for data, automation, and internal API tool servers where Python is already the glue language."
+    type: "Tool SDK"
+    input: "Python functions, schemas, and resources."
+    output: "MCP-compatible server or client."
+    tools: ["Model Context Protocol", "Python"]
+    safety_notes: "Guard filesystem, shell, and database operations with explicit allowlists."
+
+  - name: "MCP Registry"
+    url: "https://registry.modelcontextprotocol.io/"
+    description: "Official registry for discovering MCP servers."
+    platform: ["MCP"]
+    category: ["MCP & Tool Use"]
+    tags: ["mcp", "registry", "server-discovery"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Browse registry entries and follow each server's install instructions."
+    why_awesome: "A better discovery layer than relying on scattered README links."
+    type: "Registry"
+    input: "Tool or integration requirements."
+    output: "Candidate MCP servers."
+    tools: ["Model Context Protocol"]
+    safety_notes: "Registry presence is not a security audit; inspect code, scopes, and credentials."
+
+  - name: "Awesome MCP Servers"
+    url: "https://github.com/punkpeye/awesome-mcp-servers"
+    description: "Large community-curated list of MCP servers across developer tools, data, search, browser automation, and business systems."
+    platform: ["MCP"]
+    category: ["MCP & Tool Use"]
+    tags: ["mcp", "awesome-list", "servers", "integrations"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Use each listed server's own installation guide."
+    why_awesome: "Useful for market scanning and comparison when choosing MCP integrations."
+    type: "Collection"
+    input: "Integration target or tool category."
+    output: "Candidate MCP servers."
+    tools: ["Model Context Protocol"]
+    safety_notes: "Community lists include uneven quality; verify maintenance and permissions."
+
+  - name: "GitHub MCP Server Guide"
+    url: "https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/"
+    description: "Practical guide for configuring and using GitHub's MCP server with access controls and examples."
+    platform: ["MCP", "GitHub Copilot", "VS Code"]
+    category: ["MCP & Tool Use", "AI Coding", "DevOps"]
+    tags: ["github", "mcp", "repository", "access-control"]
+    maturity: "recommended"
+    license: "Article"
+    maintained: true
+    install: "Follow the guide for GitHub MCP server setup."
+    why_awesome: "Concrete example of connecting agents to a high-value developer system with explicit access-control steps."
+    type: "MCP Recipe"
+    input: "GitHub account, repository context, and approved scopes."
+    output: "GitHub tools available through MCP."
+    tools: ["Model Context Protocol", "GitHub"]
+    safety_notes: "Use least-privilege repository and organization scopes."
+
+  - name: "Playwright MCP"
+    url: "https://github.com/microsoft/playwright-mcp"
+    description: "MCP server that gives agents browser automation capabilities through Playwright."
+    platform: ["MCP", "Playwright"]
+    category: ["Browser Automation", "MCP & Tool Use", "Evaluation & Testing"]
+    tags: ["browser", "playwright", "mcp", "screenshots", "qa"]
+    maturity: "recommended"
+    license: "Apache-2.0"
+    maintained: true
+    install: "Follow the Playwright MCP repository installation instructions."
+    why_awesome: "A practical bridge between agent reasoning and real browser state for QA and workflow automation."
+    type: "MCP Server"
+    input: "URL, browser actions, selectors, or testing goals."
+    output: "Browser observations, screenshots, and interaction results."
+    tools: ["Model Context Protocol", "Playwright"]
+    safety_notes: "Use isolated browser profiles for untrusted sites and never expose real credentials unnecessarily."
+
+  - name: "OpenAI Codex MCP Guide"
+    url: "https://developers.openai.com/codex/mcp"
+    description: "Codex documentation for configuring MCP servers and tool access."
+    platform: ["Codex", "MCP"]
+    category: ["MCP & Tool Use", "AI Coding"]
+    tags: ["codex", "mcp", "tool-use", "configuration"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Configure MCP servers according to the Codex MCP guide."
+    why_awesome: "Shows how MCP fits into Codex workflows without inventing a custom integration layer."
+    type: "Tool Guide"
+    input: "MCP server configuration."
+    output: "Codex-accessible tools."
+    tools: ["Codex", "Model Context Protocol"]
+    safety_notes: "Review every configured server as part of the agent's trust boundary."
+
+  - name: "OpenAI Prompt Engineering Guide"
+    url: "https://developers.openai.com/api/docs/guides/prompt-engineering"
+    description: "Official guide for prompt patterns, instruction structure, decomposition, and reliability tactics."
+    platform: ["OpenAI", "General Agent Skills"]
+    category: ["MCP & Tool Use", "Agent Instructions", "Evaluation & Testing"]
+    tags: ["prompt-patterns", "instructions", "decomposition", "reliability"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Use as a reference when writing skill instructions."
+    why_awesome: "Helpful for turning vague prompt dumps into explicit, testable agent instructions."
+    type: "Prompt Pattern"
+    input: "Task goals and constraints."
+    output: "Better structured prompts and skill instructions."
+    tools: ["OpenAI"]
+    safety_notes: "Prompt quality does not replace permission checks for tools."
+
+  - name: "OpenAI Function Calling Guide"
+    url: "https://developers.openai.com/api/docs/guides/function-calling"
+    description: "Official guide for connecting models to external tools with function schemas and structured arguments."
+    platform: ["OpenAI", "General Agent Skills"]
+    category: ["MCP & Tool Use"]
+    tags: ["function-calling", "tool-use", "schemas", "structured-outputs"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Use the guide when designing agent tool APIs."
+    why_awesome: "Core reference for tool schemas, routing, and multi-step tool use outside MCP."
+    type: "Tool Use Recipe"
+    input: "Function schemas and user requests."
+    output: "Validated tool calls and structured tool arguments."
+    tools: ["OpenAI API"]
+    safety_notes: "Validate model-produced arguments server-side before executing tools."
+
+  - name: "OpenAI Evals"
+    url: "https://github.com/openai/evals"
+    description: "Framework and examples for evaluating model behavior and task performance."
+    platform: ["OpenAI", "General Agent Skills"]
+    category: ["Evaluation & Testing", "Safety & Security"]
+    tags: ["evals", "quality", "regression", "benchmark"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Follow the repository setup instructions."
+    why_awesome: "Useful foundation for turning skill quality from vibes into repeatable checks."
+    type: "Evaluation Recipe"
+    input: "Task samples, expected behavior, and scoring criteria."
+    output: "Evaluation results and regression signals."
+    tools: ["OpenAI API", "Python"]
+    safety_notes: "Include adversarial and permission-boundary cases in evals."
+
+  - name: "Promptfoo"
+    url: "https://github.com/promptfoo/promptfoo"
+    description: "Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites."
+    platform: ["General Agent Skills"]
+    category: ["Evaluation & Testing", "Safety & Security"]
+    tags: ["prompt-testing", "evals", "regression", "red-team"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install promptfoo and define eval cases in config files."
+    why_awesome: "Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing."
+    type: "Evaluation Tool"
+    input: "Prompts, expected outputs, providers, and assertions."
+    output: "Comparison reports and test results."
+    tools: ["Node.js", "CLI"]
+    safety_notes: "Do not send sensitive production data into third-party model providers during evals."
+
+  - name: "Inspect Evals"
+    url: "https://github.com/UKGovernmentBEIS/inspect_ai"
+    description: "Evaluation framework for large language model tasks, including tool-use and agent-style evaluations."
+    platform: ["General Agent Skills"]
+    category: ["Evaluation & Testing", "Safety & Security"]
+    tags: ["evals", "agent-evaluation", "tool-use", "safety"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Install Inspect and define tasks, solvers, and scorers."
+    why_awesome: "Good fit for teams that want deeper evaluation harnesses around agent workflows."
+    type: "Evaluation Tool"
+    input: "Tasks, datasets, solvers, and scoring logic."
+    output: "Evaluation logs and metrics."
+    tools: ["Python"]
+    safety_notes: "Sandbox tool-use tasks that execute code or access files."
+
+  - name: "Claude Prompt Engineering"
+    url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+    description: "Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation."
+    platform: ["Claude", "Claude Code", "General Agent Skills"]
+    category: ["Agent Instructions", "Writing & Content", "Evaluation & Testing"]
+    tags: ["claude", "prompt-patterns", "instructions", "examples"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Use as a reference when designing Claude-oriented skills or instructions."
+    why_awesome: "Useful for converting broad task requests into durable instruction formats."
+    type: "Prompt Pattern"
+    input: "Task instructions and examples."
+    output: "More reliable Claude prompts and skill instructions."
+    tools: ["Claude"]
+    safety_notes: "Separate hidden reasoning needs from user-visible output requirements."
+
+  - name: "Anthropic Computer Use"
+    url: "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool"
+    description: "Anthropic documentation for computer-use agents that interact with graphical applications."
+    platform: ["Claude"]
+    category: ["Browser Automation", "MCP & Tool Use", "Safety & Security"]
+    tags: ["computer-use", "automation", "screenshots", "human-approval"]
+    maturity: "promising"
+    license: "Docs"
+    maintained: true
+    install: "Follow Anthropic's computer-use documentation."
+    why_awesome: "Important reference for when a skill needs GUI automation rather than API-only tools."
+    type: "Tool Use Recipe"
+    input: "Screen state, screenshots, and user goal."
+    output: "Computer actions and observations."
+    tools: ["Claude"]
+    safety_notes: "Require human approval for purchases, credential entry, destructive actions, and external communication."
+
+  - name: "Aider Conventions"
+    url: "https://aider.chat/docs/usage/conventions.html"
+    description: "Aider documentation for repository conventions that guide AI coding changes."
+    platform: ["Aider", "General Agent Skills"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["aider", "conventions", "coding-agent", "repo-context"]
+    maturity: "promising"
+    license: "Docs"
+    maintained: true
+    install: "Add convention guidance as documented by Aider."
+    why_awesome: "A concise example of how coding agents benefit from persistent repo-specific rules."
+    type: "Instruction Guide"
+    input: "Coding conventions and project context."
+    output: "Agent-aware coding guidance."
+    tools: ["Aider"]
+    safety_notes: "Keep conventions short enough to stay relevant."
+
+  - name: "Sweep AI"
+    url: "https://github.com/sweepai/sweep"
+    description: "Open-source AI junior developer workflow for turning issues into code changes and pull requests."
+    platform: ["GitHub", "General Agent Skills"]
+    category: ["AI Coding", "DevOps"]
+    tags: ["issue-to-pr", "coding-agent", "github", "automation"]
+    maturity: "promising"
+    license: "Apache-2.0"
+    maintained: true
+    install: "Follow the repository setup instructions."
+    why_awesome: "Useful pattern reference for issue triage, repo context gathering, and PR automation."
+    type: "Workflow Recipe"
+    input: "GitHub issue and repository context."
+    output: "Code changes and pull requests."
+    tools: ["GitHub"]
+    safety_notes: "Review generated code and permission scopes before merging."
+
+  - name: "Continue Custom Slash Commands"
+    url: "https://docs.continue.dev/customize/deep-dives/slash-commands"
+    description: "Continue documentation for defining reusable slash commands that guide coding workflows."
+    platform: ["Continue", "VS Code", "JetBrains"]
+    category: ["Agent Instructions", "AI Coding"]
+    tags: ["slash-commands", "continue", "workflow", "instructions"]
+    maturity: "promising"
+    license: "Docs"
+    maintained: true
+    install: "Configure slash commands in Continue."
+    why_awesome: "A lightweight pattern for repeatable coding workflows when a full skill package is too much."
+    type: "Workflow Recipe"
+    input: "Command name, prompt body, and code context."
+    output: "Reusable agent command."
+    tools: ["Continue"]
+    safety_notes: "Commands that run tools should declare assumptions and verification steps."
+
+  - name: "Microsoft Prompt Flow"
+    url: "https://github.com/microsoft/promptflow"
+    description: "Tooling for building, evaluating, and deploying LLM workflows."
+    platform: ["Azure", "General Agent Skills"]
+    category: ["MCP & Tool Use", "Evaluation & Testing", "Data Analysis"]
+    tags: ["workflow", "evaluation", "prompt-engineering", "llmops"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Follow Prompt Flow setup instructions."
+    why_awesome: "Useful when a skill grows into a multi-node workflow with evaluation and deployment needs."
+    type: "Workflow Tool"
+    input: "Prompt, tool, and data flow definitions."
+    output: "Runnable and evaluable LLM workflows."
+    tools: ["Python", "Azure"]
+    safety_notes: "Keep secrets in managed configuration, not prompt or flow files."
+
+  - name: "LangGraph"
+    url: "https://github.com/langchain-ai/langgraph"
+    description: "Framework for building stateful, multi-step agent workflows with explicit graph control."
+    platform: ["General Agent Skills"]
+    category: ["MCP & Tool Use", "AI Coding", "Data Analysis"]
+    tags: ["agent-workflow", "graph", "state-machine", "tool-routing"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install LangGraph for Python or JavaScript as documented."
+    why_awesome: "Good reference for turning ad hoc multi-step tool use into explicit, inspectable workflow graphs."
+    type: "Workflow Framework"
+    input: "State schema, nodes, tools, and routing rules."
+    output: "Stateful agent application."
+    tools: ["Python", "Node.js"]
+    safety_notes: "Use explicit control flow and guardrails around irreversible actions."
+
+  - name: "OpenAI Cookbook"
+    url: "https://developers.openai.com/cookbook"
+    description: "Practical examples for OpenAI API use cases, including tool use, structured outputs, retrieval, evaluation, and workflows."
+    platform: ["OpenAI", "General Agent Skills"]
+    category: ["MCP & Tool Use", "Research & Search", "Data Analysis", "Evaluation & Testing"]
+    tags: ["cookbook", "examples", "tool-use", "structured-outputs"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Use individual cookbook examples as references."
+    why_awesome: "High-signal examples that help skill authors move from concept to runnable implementation."
+    type: "Recipe Collection"
+    input: "API use case or workflow goal."
+    output: "Runnable example pattern."
+    tools: ["OpenAI API", "Python"]
+    safety_notes: "Adapt examples to your data-handling and permission model."
+
+  - name: "Anthropic Cookbook"
+    url: "https://github.com/anthropics/claude-cookbooks"
+    description: "Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows."
+    platform: ["Claude", "General Agent Skills"]
+    category: ["MCP & Tool Use", "Research & Search", "Writing & Content"]
+    tags: ["cookbook", "claude", "examples", "tool-use"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Use individual cookbook notebooks and examples as references."
+    why_awesome: "Strong source of Claude-oriented tool-use and workflow examples."
+    type: "Recipe Collection"
+    input: "Claude API workflow or agent task."
+    output: "Runnable example pattern."
+    tools: ["Claude", "Python"]
+    safety_notes: "Check tool permissions and data retention before adapting examples."
+
+  - name: "DSPy"
+    url: "https://github.com/stanfordnlp/dspy"
+    description: "Framework for programming and optimizing language model pipelines with declarative modules and evaluation-driven improvement."
+    platform: ["General Agent Skills"]
+    category: ["Evaluation & Testing", "Research & Search", "Data Analysis"]
+    tags: ["optimization", "evals", "prompt-programming", "pipelines"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install DSPy and define modules, metrics, and optimizers."
+    why_awesome: "Useful for evolving fragile prompts into measurable, optimized agent components."
+    type: "Evaluation Framework"
+    input: "Training examples, modules, and metrics."
+    output: "Optimized prompts or pipelines."
+    tools: ["Python"]
+    safety_notes: "Evaluation datasets should avoid sensitive or license-restricted content."
+
+  - name: "MCP For Beginners"
+    url: "https://github.com/microsoft/mcp-for-beginners/"
+    description: "Open-source curriculum for learning Model Context Protocol with hands-on examples across multiple languages."
+    platform: ["MCP"]
+    category: ["MCP & Tool Use"]
+    tags: ["mcp", "workshop", "learning", "tools"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Clone the curriculum and follow the language-specific lessons."
+    why_awesome: "A stable hands-on path for developers who need to understand MCP by building, not just reading docs."
+    type: "Curriculum"
+    input: "Developer environment and MCP lessons."
+    output: "Working MCP examples across languages."
+    tools: ["Model Context Protocol"]
+    safety_notes: "Use sample credentials and isolated environments for workshop tasks."
+
+  - name: "Agent Protocol"
+    url: "https://github.com/agi-inc/agent-protocol"
+    description: "Specification and examples for a common API layer around agent task execution."
+    platform: ["General Agent Skills"]
+    category: ["MCP & Tool Use", "Agent Instructions"]
+    tags: ["agent-protocol", "api", "interoperability", "tasks"]
+    maturity: "experimental"
+    license: "MIT"
+    maintained: true
+    install: "Review the protocol specification and implementation examples."
+    why_awesome: "A useful comparison point when thinking about skill portability and agent interoperability."
+    type: "Protocol"
+    input: "Agent task requests and lifecycle events."
+    output: "Standardized agent task API behavior."
+    tools: []
+    safety_notes: "Protocol compatibility does not imply tool or data safety."
+
+  - name: "Guardrails AI"
+    url: "https://github.com/guardrails-ai/guardrails"
+    description: "Framework for validating, correcting, and constraining LLM outputs with validators and structured checks."
+    platform: ["General Agent Skills"]
+    category: ["Safety & Security", "Evaluation & Testing"]
+    tags: ["guardrails", "validation", "structured-output", "safety"]
+    maturity: "promising"
+    license: "Apache-2.0"
+    maintained: true
+    install: "Install Guardrails and define validators for your outputs."
+    why_awesome: "Helpful when skill outputs need validation before tools, files, or downstream systems consume them."
+    type: "Safety Tool"
+    input: "LLM output, schema, and validators."
+    output: "Validated or corrected outputs."
+    tools: ["Python"]
+    safety_notes: "Use validation as a second layer; still enforce server-side permissions."
+
+  - name: "OWASP Top 10 for LLM Applications"
+    url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    description: "Security risks and guidance for LLM applications, including prompt injection, data leakage, and unsafe output handling."
+    platform: ["General Agent Skills"]
+    category: ["Safety & Security", "MCP & Tool Use"]
+    tags: ["owasp", "prompt-injection", "llm-security", "tool-safety"]
+    maturity: "recommended"
+    license: "Docs"
+    maintained: true
+    install: "Use as a review checklist for skills and tool-use recipes."
+    why_awesome: "Essential security lens for any skill that reads untrusted content or invokes tools."
+    type: "Security Guide"
+    input: "Skill design, threat model, and tool permissions."
+    output: "Security review findings and mitigations."
+    tools: []
+    safety_notes: "Pay special attention to indirect prompt injection and excessive agency."
+    featured: true
+
+  - name: "Giskard LLM Scan"
+    url: "https://github.com/Giskard-AI/giskard-oss"
+    description: "Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities."
+    platform: ["General Agent Skills"]
+    category: ["Safety & Security", "Evaluation & Testing"]
+    tags: ["llm-security", "testing", "scan", "risk"]
+    maturity: "promising"
+    license: "Apache-2.0"
+    maintained: true
+    install: "Install Giskard and configure scans for your model or app."
+    why_awesome: "Useful for teams that want automated checks around LLM behavior and safety issues."
+    type: "Safety Tool"
+    input: "Model or app endpoint and test configuration."
+    output: "Risk findings and reports."
+    tools: ["Python"]
+    safety_notes: "Security scans complement, but do not replace, manual threat modeling."
+
+  - name: "Microsoft Presidio"
+    url: "https://github.com/microsoft/presidio"
+    description: "Data protection and de-identification toolkit for detecting and anonymizing sensitive information."
+    platform: ["General Agent Skills"]
+    category: ["Safety & Security", "Data Analysis"]
+    tags: ["pii", "redaction", "privacy", "data-protection"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install Presidio components and configure recognizers for your data."
+    why_awesome: "Practical building block for skills that handle logs, support tickets, documents, or analytics exports."
+    type: "Safety Tool"
+    input: "Text or structured data."
+    output: "Detected entities and redacted text."
+    tools: ["Python"]
+    safety_notes: "Tune recognizers for domain-specific identifiers and validate false negatives."
+
+  - name: "Browser Use"
+    url: "https://github.com/browser-use/browser-use"
+    description: "Library for building AI agents that control browsers and perform web tasks."
+    platform: ["General Agent Skills"]
+    category: ["Browser Automation", "MCP & Tool Use"]
+    tags: ["browser", "automation", "web-agent", "tool-use"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Follow the Browser Use repository setup instructions."
+    why_awesome: "A useful reference for browser task decomposition, observations, and action loops."
+    type: "Tool Use Recipe"
+    input: "Web task goal, URL, and browser state."
+    output: "Automated web interactions and observations."
+    tools: ["Browser", "Python"]
+    safety_notes: "Use sandboxed accounts and human approval for transactions or data changes."
+
+  - name: "LlamaIndex Workflows"
+    url: "https://developers.llamaindex.ai/python/llamaagents/workflows/"
+    description: "Workflow abstractions for orchestrating multi-step LLM applications and tool pipelines."
+    platform: ["General Agent Skills"]
+    category: ["Research & Search", "Data Analysis", "MCP & Tool Use"]
+    tags: ["workflow", "rag", "tool-use", "orchestration"]
+    maturity: "promising"
+    license: "Docs"
+    maintained: true
+    install: "Use LlamaIndex workflow APIs as documented."
+    why_awesome: "Good reference when research or RAG skills need explicit steps, events, and retry logic."
+    type: "Workflow Framework"
+    input: "Events, tools, indexes, and task state."
+    output: "Orchestrated LLM workflow."
+    tools: ["Python", "Node.js"]
+    safety_notes: "Guard retrieval sources against prompt injection and stale data."
+
+  - name: "Microsoft AutoGen"
+    url: "https://github.com/microsoft/autogen"
+    description: "Framework for building AI agents, multi-agent systems, and tool-using workflows."
+    platform: ["General Agent Skills"]
+    category: ["MCP & Tool Use", "AI Coding", "Research & Search"]
+    tags: ["multi-agent", "workflow", "tool-use", "orchestration"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Install AutoGen and follow the documentation for agent workflows."
+    why_awesome: "Useful comparison point for skill authors designing coordinated multi-agent behavior."
+    type: "Workflow Framework"
+    input: "Agent roles, tools, messages, and task goals."
+    output: "Coordinated agent workflow."
+    tools: ["Python"]
+    safety_notes: "Multi-agent systems need clear stop conditions and human approval for risky actions."
+
+  - name: "Semantic Kernel"
+    url: "https://github.com/microsoft/semantic-kernel"
+    description: "SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows."
+    platform: ["General Agent Skills", "Azure"]
+    category: ["MCP & Tool Use", "Productivity", "DevOps"]
+    tags: ["plugins", "planner", "enterprise", "tool-use"]
+    maturity: "recommended"
+    license: "MIT"
+    maintained: true
+    install: "Install the SDK for your language and follow the examples."
+    why_awesome: "A mature reference for packaging business capabilities as callable tools and workflows."
+    type: "Workflow Framework"
+    input: "Plugins, prompts, connectors, and application state."
+    output: "LLM-powered application workflow."
+    tools: [".NET", "Python", "Java"]
+    safety_notes: "Keep enterprise connectors behind explicit authorization and audit logs."
+
+  - name: "CrewAI"
+    url: "https://github.com/crewAIInc/crewAI"
+    description: "Framework for orchestrating role-based AI agents and task workflows."
+    platform: ["General Agent Skills"]
+    category: ["Productivity", "Research & Search", "MCP & Tool Use"]
+    tags: ["multi-agent", "roles", "workflow", "automation"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Install CrewAI and define agents, tasks, and tools."
+    why_awesome: "A useful pattern source for decomposing repeatable workflows into roles and tasks."
+    type: "Workflow Framework"
+    input: "Agents, task descriptions, tools, and process settings."
+    output: "Executed multi-agent workflow."
+    tools: ["Python"]
+    safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."

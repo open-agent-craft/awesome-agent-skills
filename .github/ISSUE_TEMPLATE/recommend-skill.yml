@@ -1,0 +1,67 @@
+name: Recommend a skill
+description: Recommend an Agent Skill, AI coding skill, tool-use recipe, MCP recipe, or instruction resource.
+title: "[Recommendation]: "
+labels:
+  - recommendation
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: Code Review Skill
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://github.com/example/skill
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - AI Coding
+        - Research & Search
+        - Writing & Content
+        - Data Analysis
+        - Browser Automation
+        - Design & Media
+        - Productivity
+        - DevOps
+        - MCP & Tool Use
+        - Agent Instructions
+        - Evaluation & Testing
+        - Safety & Security
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform or tool
+      placeholder: Codex, Claude Code, GitHub Copilot, MCP, Cursor
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it awesome?
+      description: Explain the concrete task it solves and why it is worth listing.
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: Installation or usage notes
+      description: Link or summarize how someone starts using it.
+    validations:
+      required: false
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety or maintenance concerns
+      description: Mention permissions, credentials, tool access, maintenance status, or known limitations.
+    validations:
+      required: false

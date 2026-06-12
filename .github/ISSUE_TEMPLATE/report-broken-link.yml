@@ -1,0 +1,40 @@
+name: Report a broken link
+description: Report a dead, redirected, malicious, or outdated resource link.
+title: "[Broken link]: "
+labels:
+  - broken-link
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: https://example.com/old-resource
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is it listed?
+      placeholder: README section, data/skills.yml entry, or line number.
+    validations:
+      required: true
+  - type: dropdown
+    id: issue
+    attributes:
+      label: Issue type
+      options:
+        - 404 or dead link
+        - Redirects to unrelated content
+        - Malware or phishing
+        - Project archived or unmaintained
+        - Documentation moved
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Suggested replacement
+      placeholder: New URL or recommended action.
+    validations:
+      required: false

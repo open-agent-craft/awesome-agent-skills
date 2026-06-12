@@ -1,0 +1,17 @@
+{
+  "name": "awesome-agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated, searchable, and comparable index of Agent Skills, AI coding skills, tool-use recipes, and agent instructions.",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate-data.ts",
+    "generate": "tsx scripts/generate-readme.ts",
+    "check": "npm run validate && npm run generate -- --check"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "yaml": "^2.8.0"
+  }
+}
