@@ -110,6 +110,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) | General Agent Skills | Workflow Framework | 值得关注 | `workflow`, `rag`, `tool-use`, `orchestration` |
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
+| [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex / Claude Code / General Agent Skills | Agent Skill | 值得关注 | `x`, `twitter`, `social-data`, `mcp`, `api` |
 
 ## Writing & Content Skills
 
@@ -137,6 +138,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Microsoft Prompt Flow](https://github.com/microsoft/promptflow) | Azure / General Agent Skills | Workflow Tool | 值得关注 | `workflow`, `evaluation`, `prompt-engineering`, `llmops` |
 | [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | MCP / General Agent Skills | MCP Recipe | 推荐 | `mcp`, `servers`, `reference-implementation`, `tools` |
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
+| [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex / Claude Code / General Agent Skills | Agent Skill | 值得关注 | `x`, `twitter`, `social-data`, `mcp`, `api` |
 
 ## Browser Automation
 
@@ -211,6 +213,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | 推荐 | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
+| [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex / Claude Code / General Agent Skills | Agent Skill | 值得关注 | `x`, `twitter`, `social-data`, `mcp`, `api` |
 
 ## Agent Instructions
 
@@ -292,6 +295,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - Installable agent skill and SDK package for X/Twitter data workflows, including search, profile, follower, media, webhook, and MCP tasks. 为什么值得看：Gives agents a reusable, documented path for structured X/Twitter research data instead of ad hoc browser steps.
 
 ### Codex
 
@@ -300,6 +304,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - Installable agent skill and SDK package for X/Twitter data workflows, including search, profile, follower, media, webhook, and MCP tasks. 为什么值得看：Gives agents a reusable, documented path for structured X/Twitter research data instead of ad hoc browser steps.
 
 ### Continue
 
@@ -343,6 +348,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites. 为什么值得看：Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows. 为什么值得看：A mature reference for packaging business capabilities as callable tools and workflows.
 - [Sweep AI](https://github.com/sweepai/sweep) - Open-source AI junior developer workflow for turning issues into code changes and pull requests. 为什么值得看：Useful pattern reference for issue triage, repo context gathering, and PR automation.
+- [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - Installable agent skill and SDK package for X/Twitter data workflows, including search, profile, follower, media, webhook, and MCP tasks. 为什么值得看：Gives agents a reusable, documented path for structured X/Twitter research data instead of ad hoc browser steps.
 
 ### GitHub
 
