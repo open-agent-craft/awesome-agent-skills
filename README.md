@@ -4,6 +4,8 @@
 
 This repository is not just a link dump. It is meant to be an agent capability entry point: what is worth using, when to use it, what platform it supports, how mature it is, how to install it, and what to watch out for.
 
+[中文版本](./README.zh-CN.md)
+
 ## Contents
 
 - [Featured](#featured)
@@ -41,7 +43,7 @@ Hand-picked skills and references that are practical, reusable, and well documen
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Reference MCP server implementations maintained for demonstrating MCP features, SDK usage, tools, prompts, and resources. Why awesome: Best starting point for understanding the shape of MCP servers without relying on vendor-specific wrappers.
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Security risks and guidance for LLM applications, including prompt injection, data leakage, and unsafe output handling. Why awesome: Essential security lens for any skill that reads untrusted content or invokes tools.
 
-## What Is An Agent Skill?
+## What Is An Agent Skill
 
 An Agent Skill is a reusable package of instructions, examples, scripts, references, or assets that helps an AI agent perform a task reliably. A good skill is narrower than a general prompt and more portable than a one-off chat transcript.
 
@@ -66,6 +68,8 @@ Useful neighboring formats include:
 - [Agent Instructions](#agent-instructions) - AGENTS.md, CLAUDE.md, GEMINI.md, Copilot instructions, Cursor rules, Windsurf rules, and project context files.
 - [Evaluation & Testing](#evaluation-and-testing) - Skill evaluation, regression checks, benchmark loops, review gates, and quality scoring workflows.
 - [Safety & Security](#safety-and-security) - Prompt injection defense, permissions, secret handling, safe file operations, and human approval workflows.
+
+
 
 ## AI Coding
 
@@ -439,7 +443,7 @@ Not a fit:
 - `data/categories.yml` defines categories and maturity labels.
 - `data/tools.yml` tracks platforms, protocols, and instruction files.
 - Run `npm run validate` to validate data.
-- Run `npm run generate` to regenerate this README.
+- Run `npm run generate` to regenerate the English and Chinese READMEs.
 
 ## Contributing
 
