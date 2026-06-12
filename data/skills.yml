@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Xquik x-twitter-scraper"
+    url: "https://github.com/Xquik-dev/x-twitter-scraper"
+    description: "Installable agent skill and SDK package for X/Twitter data workflows, including search, profile, follower, media, webhook, and MCP tasks."
+    platform: ["Codex", "Claude Code", "General Agent Skills"]
+    category: ["Research & Search", "Data Analysis", "MCP & Tool Use"]
+    tags: ["x", "twitter", "social-data", "mcp", "api"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Install from the GitHub skill repository or use the x-developer package with an Xquik API key."
+    why_awesome: "Gives agents a reusable, documented path for structured X/Twitter research data instead of ad hoc browser steps."
+    type: "Agent Skill"
+    input: "X/Twitter URLs, handles, keywords, job settings, and API credentials."
+    output: "Structured profile, tweet, follower, media, extraction, webhook, or MCP results."
+    tools: ["Codex", "Claude Code", "Model Context Protocol"]
+    safety_notes: "Requires API credentials; keep keys out of prompts and use read-only workflows unless writes are intentional."
