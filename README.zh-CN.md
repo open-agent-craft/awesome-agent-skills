@@ -84,6 +84,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | 推荐 | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
 | [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) | Cursor | Collection | 值得关注 | `cursor`, `rules`, `frameworks`, `templates` |
+| [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) | Claude Code / Codex / General Agent Skills | Agent Skill | 值得关注 | `workflow-reconstruction`, `session-recall`, `agent-telemetry`, `retrospective` |
 | [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) | Codex | Instruction Guide | 推荐 | `agents-md`, `codex`, `project-context`, `instruction-precedence` |
 | [Continue Custom Slash Commands](https://docs.continue.dev/customize/deep-dives/slash-commands) | Continue / VS Code / JetBrains | Workflow Recipe | 值得关注 | `slash-commands`, `continue`, `workflow`, `instructions` |
 | [Cursor Rules](https://cursor.com/docs/rules) | Cursor | Instruction Guide | 推荐 | `cursor`, `rules`, `mdc`, `project-instructions` |
@@ -163,6 +164,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) | Claude Code / Codex / General Agent Skills | Agent Skill | 值得关注 | `workflow-reconstruction`, `session-recall`, `agent-telemetry`, `retrospective` |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 
@@ -239,6 +241,7 @@ Skill 评估、回归检查、基准测试、质量闸门和评测工作流。
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) | Claude Code / Codex / General Agent Skills | Agent Skill | 值得关注 | `workflow-reconstruction`, `session-recall`, `agent-telemetry`, `retrospective` |
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | 推荐 | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | 推荐 | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | 值得关注 | `llm-security`, `testing`, `scan`, `risk` |
@@ -290,12 +293,14 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. 为什么值得看：Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
+- [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) - Agent skill for reconstructing the workflow behind a shipped artifact from local ax sessions, commits, skills, and agent delegations. 为什么值得看：Turns the traces behind a real commit or feature into a reusable recipe instead of relying on memory.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
+- [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) - Agent skill for reconstructing the workflow behind a shipped artifact from local ax sessions, commits, skills, and agent delegations. 为什么值得看：Turns the traces behind a real commit or feature into a reusable recipe instead of relying on memory.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
@@ -321,6 +326,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Aider Conventions](https://aider.chat/docs/usage/conventions.html) - Aider documentation for repository conventions that guide AI coding changes. 为什么值得看：A concise example of how coding agents benefit from persistent repo-specific rules.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows. 为什么值得看：Strong source of Claude-oriented tool-use and workflow examples.
+- [ax-extract-workflow](https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow) - Agent skill for reconstructing the workflow behind a shipped artifact from local ax sessions, commits, skills, and agent delegations. 为什么值得看：Turns the traces behind a real commit or feature into a reusable recipe instead of relying on memory.
 - [Browser Use](https://github.com/browser-use/browser-use) - Library for building AI agents that control browsers and perform web tasks. 为什么值得看：A useful reference for browser task decomposition, observations, and action loops.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-based AI agents and task workflows. 为什么值得看：A useful pattern source for decomposing repeatable workflows into roles and tasks.
