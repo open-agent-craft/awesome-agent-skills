@@ -71,6 +71,23 @@ skills:
     safety_notes: "Portable format does not make a skill safe; review scripts and permissions."
     featured: true
 
+  - name: "ax-extract-workflow"
+    url: "https://github.com/Necmttn/ax/tree/main/skills/ax-extract-workflow"
+    description: "Agent skill for reconstructing the workflow behind a shipped artifact from local ax sessions, commits, skills, and agent delegations."
+    platform: ["Claude Code", "Codex", "General Agent Skills"]
+    category: ["AI Coding", "Productivity", "Evaluation & Testing"]
+    tags: ["workflow-reconstruction", "session-recall", "agent-telemetry", "retrospective"]
+    maturity: "promising"
+    license: "AGPL-3.0-only"
+    maintained: true
+    install: "Install ax, then copy or install the ax-extract-workflow skill from the ax repository."
+    why_awesome: "Turns the traces behind a real commit or feature into a reusable recipe instead of relying on memory."
+    type: "Agent Skill"
+    input: "A commit SHA, date, repository, or feature name plus access to the local ax graph."
+    output: "An ordered skill arc, key decisions, and optional reproducer brief for the shipped artifact."
+    tools: ["Claude Code", "Codex", "CLI"]
+    safety_notes: "Reads local transcripts, git history, and agent telemetry; review private excerpts before sharing output."
+
   - name: "AGENTS.md"
     url: "https://agents.md/"
     description: "A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints."
