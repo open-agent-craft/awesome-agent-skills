@@ -1,4 +1,12 @@
 skills:
+  - name: "linkedin-growth"
+    url: "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth"
+    description: "Import leads from LinkedIn or Sales Navigator searches, qualify them against an ideal-customer profile, schedule safe connection invites across accounts, track acceptances, and withdraw stale pending requests."
+    platform: ["Claude Code"]
+    category: ["Browser Automation"]
+    maintained: true
+    why_awesome: "Sanctioned LinkedIn automation for agent-driven outreach and research via the official Linked API."
+    safety_notes: "Respect LinkedIn terms and rate limits through official Linked API controls; avoid aggressive scraping."
   - name: "OpenAI Codex Agent Skills"
     url: "https://developers.openai.com/codex/skills"
     description: "Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets."
