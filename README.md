@@ -93,6 +93,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
 | [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) | Codex | Skill Format | Recommended | `codex`, `skill-format`, `workflow`, `progressive-disclosure` |
 | [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) | Codex / MCP | Tool Guide | Recommended | `codex`, `mcp`, `tool-use`, `configuration` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | Promising | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | Promising | `issue-to-pr`, `coding-agent`, `github`, `automation` |
 | [VS Code Copilot Custom Instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions) | GitHub Copilot / VS Code | Instruction Guide | Recommended | `vscode`, `copilot`, `instructions`, `prompt-files` |
 
@@ -163,6 +164,7 @@ Calendar, email, task, note, meeting, and knowledge workflow recipes for agents.
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | Promising | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 
 ## DevOps
 
@@ -248,6 +250,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | Recommended | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | General Agent Skills | Evaluation Tool | Recommended | `prompt-testing`, `evals`, `regression`, `red-team` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | Promising | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 
 ## Safety & Security
 
@@ -290,6 +293,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 67 reusable skills for Claude Code and Codex, spanning multi-agent orchestration, Codex worker fleets, code review, AI evaluation, product, design, and growth workflows. Why awesome: Combines engineering controls and product workflows in one inspectable SKILL.md collection while keeping public contribution and side-effecting actions explicitly gated.
 
 ### Codex
 
@@ -298,6 +302,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 67 reusable skills for Claude Code and Codex, spanning multi-agent orchestration, Codex worker fleets, code review, AI evaluation, product, design, and growth workflows. Why awesome: Combines engineering controls and product workflows in one inspectable SKILL.md collection while keeping public contribution and side-effecting actions explicitly gated.
 
 ### Continue
 

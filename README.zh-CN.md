@@ -95,6 +95,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
 | [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) | Codex | Skill Format | 推荐 | `codex`, `skill-format`, `workflow`, `progressive-disclosure` |
 | [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) | Codex / MCP | Tool Guide | 推荐 | `codex`, `mcp`, `tool-use`, `configuration` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | 值得关注 | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | 值得关注 | `issue-to-pr`, `coding-agent`, `github`, `automation` |
 | [VS Code Copilot Custom Instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions) | GitHub Copilot / VS Code | Instruction Guide | 推荐 | `vscode`, `copilot`, `instructions`, `prompt-files` |
 
@@ -165,6 +166,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | 值得关注 | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 
 ## DevOps
 
@@ -250,6 +252,7 @@ Skill 评估、回归检查、基准测试、质量闸门和评测工作流。
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | 推荐 | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | General Agent Skills | Evaluation Tool | 推荐 | `prompt-testing`, `evals`, `regression`, `red-team` |
+| [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) | Claude Code / Codex | Skill Collection | 值得关注 | `agent-orchestration`, `codex`, `code-review`, `evals`, `product`, `growth` |
 
 ## Safety & Security
 
@@ -292,6 +295,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 67 reusable skills for Claude Code and Codex, spanning multi-agent orchestration, Codex worker fleets, code review, AI evaluation, product, design, and growth workflows. 为什么值得看：Combines engineering controls and product workflows in one inspectable SKILL.md collection while keeping public contribution and side-effecting actions explicitly gated.
 
 ### Codex
 
@@ -300,6 +304,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 67 reusable skills for Claude Code and Codex, spanning multi-agent orchestration, Codex worker fleets, code review, AI evaluation, product, design, and growth workflows. 为什么值得看：Combines engineering controls and product workflows in one inspectable SKILL.md collection while keeping public contribution and side-effecting actions explicitly gated.
 
 ### Continue
 
