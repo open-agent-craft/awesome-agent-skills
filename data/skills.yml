@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Engineer Software"
+    url: "https://github.com/KirschBluteX/engineer-software"
+    description: "Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness."
+    platform: ["Codex", "DeepSeek Harness", "General Agent Skills"]
+    category: ["AI Coding", "Evaluation & Testing"]
+    tags: ["codex", "deepseek-harness", "agent-skill", "software-engineering", "evidence-driven"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Install from the Codex plugin marketplace or use the generated project-local .dsh/skills projection documented in the README."
+    why_awesome: "Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony."
+    type: "Agent Skill"
+    input: "Substantive software-engineering requests with unresolved behavior, cause, decision, implementation, structure, or work-item scope."
+    output: "A bounded workflow result backed by current reproduction, decision, acceptance, or structural evidence."
+    tools: []
+    safety_notes: "No MCP server, hooks, telemetry, credential store, or background service; DeepSeek Harness support uses a generated filesystem skill projection and remains preview-bound."

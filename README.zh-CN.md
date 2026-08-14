@@ -87,6 +87,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) | Codex | Instruction Guide | 推荐 | `agents-md`, `codex`, `project-context`, `instruction-precedence` |
 | [Continue Custom Slash Commands](https://docs.continue.dev/customize/deep-dives/slash-commands) | Continue / VS Code / JetBrains | Workflow Recipe | 值得关注 | `slash-commands`, `continue`, `workflow`, `instructions` |
 | [Cursor Rules](https://cursor.com/docs/rules) | Cursor | Instruction Guide | 推荐 | `cursor`, `rules`, `mdc`, `project-instructions` |
+| [Engineer Software](https://github.com/KirschBluteX/engineer-software) | Codex / DeepSeek Harness / General Agent Skills | Agent Skill | 值得关注 | `codex`, `deepseek-harness`, `agent-skill`, `software-engineering`, `evidence-driven` |
 | [Gemini CLI GEMINI.md](https://geminicli.com/docs/cli/gemini-md/) | Gemini CLI | Instruction Guide | 推荐 | `gemini`, `gemini-md`, `context`, `imports` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | 推荐 | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Instruction Guide | 推荐 | `copilot`, `instructions`, `github`, `repository-standards` |
@@ -241,6 +242,7 @@ Skill 评估、回归检查、基准测试、质量闸门和评测工作流。
 |---|---|---|---|---|
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | 推荐 | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | 推荐 | `optimization`, `evals`, `prompt-programming`, `pipelines` |
+| [Engineer Software](https://github.com/KirschBluteX/engineer-software) | Codex / DeepSeek Harness / General Agent Skills | Agent Skill | 值得关注 | `codex`, `deepseek-harness`, `agent-skill`, `software-engineering`, `evidence-driven` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | 值得关注 | `llm-security`, `testing`, `scan`, `risk` |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | General Agent Skills | Safety Tool | 值得关注 | `guardrails`, `validation`, `structured-output`, `safety` |
 | [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) | General Agent Skills | Evaluation Tool | 值得关注 | `evals`, `agent-evaluation`, `tool-use`, `safety` |
@@ -297,6 +299,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. 为什么值得看：Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
@@ -310,6 +313,10 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) - Community collection of Cursor rules for frameworks, languages, libraries, and project conventions. 为什么值得看：Useful as a pattern bank for writing project-aware Cursor rules instead of generic prompts.
 - [Cursor Rules](https://cursor.com/docs/rules) - Official Cursor documentation for project, team, user rules, and AGENTS.md support. 为什么值得看：Useful for making Cursor behave consistently inside large repos and framework-specific codebases.
+
+### DeepSeek Harness
+
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. 为什么值得看：Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 
 ### Gemini CLI
 
@@ -325,6 +332,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-based AI agents and task workflows. 为什么值得看：A useful pattern source for decomposing repeatable workflows into roles and tasks.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming and optimizing language model pipelines with declarative modules and evaluation-driven improvement. 为什么值得看：Useful for evolving fragile prompts into measurable, optimized agent components.
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. 为什么值得看：Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 - [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) - Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities. 为什么值得看：Useful for teams that want automated checks around LLM behavior and safety issues.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for validating, correcting, and constraining LLM outputs with validators and structured checks. 为什么值得看：Helpful when skill outputs need validation before tools, files, or downstream systems consume them.
 - [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) - Evaluation framework for large language model tasks, including tool-use and agent-style evaluations. 为什么值得看：Good fit for teams that want deeper evaluation harnesses around agent workflows.

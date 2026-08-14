@@ -85,6 +85,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 | [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) | Codex | Instruction Guide | Recommended | `agents-md`, `codex`, `project-context`, `instruction-precedence` |
 | [Continue Custom Slash Commands](https://docs.continue.dev/customize/deep-dives/slash-commands) | Continue / VS Code / JetBrains | Workflow Recipe | Promising | `slash-commands`, `continue`, `workflow`, `instructions` |
 | [Cursor Rules](https://cursor.com/docs/rules) | Cursor | Instruction Guide | Recommended | `cursor`, `rules`, `mdc`, `project-instructions` |
+| [Engineer Software](https://github.com/KirschBluteX/engineer-software) | Codex / DeepSeek Harness / General Agent Skills | Agent Skill | Promising | `codex`, `deepseek-harness`, `agent-skill`, `software-engineering`, `evidence-driven` |
 | [Gemini CLI GEMINI.md](https://geminicli.com/docs/cli/gemini-md/) | Gemini CLI | Instruction Guide | Recommended | `gemini`, `gemini-md`, `context`, `imports` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | Recommended | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Instruction Guide | Recommended | `copilot`, `instructions`, `github`, `repository-standards` |
@@ -239,6 +240,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 |---|---|---|---|---|
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | Recommended | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
+| [Engineer Software](https://github.com/KirschBluteX/engineer-software) | Codex / DeepSeek Harness / General Agent Skills | Agent Skill | Promising | `codex`, `deepseek-harness`, `agent-skill`, `software-engineering`, `evidence-driven` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | General Agent Skills | Safety Tool | Promising | `guardrails`, `validation`, `structured-output`, `safety` |
 | [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) | General Agent Skills | Evaluation Tool | Promising | `evals`, `agent-evaluation`, `tool-use`, `safety` |
@@ -295,6 +297,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. Why awesome: Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
@@ -308,6 +311,10 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) - Community collection of Cursor rules for frameworks, languages, libraries, and project conventions. Why awesome: Useful as a pattern bank for writing project-aware Cursor rules instead of generic prompts.
 - [Cursor Rules](https://cursor.com/docs/rules) - Official Cursor documentation for project, team, user rules, and AGENTS.md support. Why awesome: Useful for making Cursor behave consistently inside large repos and framework-specific codebases.
+
+### DeepSeek Harness
+
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. Why awesome: Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 
 ### Gemini CLI
 
@@ -323,6 +330,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-based AI agents and task workflows. Why awesome: A useful pattern source for decomposing repeatable workflows into roles and tasks.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming and optimizing language model pipelines with declarative modules and evaluation-driven improvement. Why awesome: Useful for evolving fragile prompts into measurable, optimized agent components.
+- [Engineer Software](https://github.com/KirschBluteX/engineer-software) - Runtime-neutral Agent Skill that routes substantive software work through one bounded, evidence-driven module at a time across Codex and DeepSeek Harness. Why awesome: Keeps requirement shaping, diagnosis, decision probes, delivery, and structural review as explicit alternatives with fresh evidence gates instead of one mandatory agent ceremony.
 - [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) - Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities. Why awesome: Useful for teams that want automated checks around LLM behavior and safety issues.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for validating, correcting, and constraining LLM outputs with validators and structured checks. Why awesome: Helpful when skill outputs need validation before tools, files, or downstream systems consume them.
 - [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) - Evaluation framework for large language model tasks, including tool-use and agent-style evaluations. Why awesome: Good fit for teams that want deeper evaluation harnesses around agent workflows.
