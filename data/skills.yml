@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Agent QA"
+    url: "https://github.com/vostride/agent-qa"
+    description: "QA skill pack and MCP-enabled tool for authoring, running, triaging, and debugging natural-language web and mobile tests."
+    platform: ["Codex", "Claude Code", "General Agent Skills"]
+    category: ["Browser Automation", "Evaluation & Testing", "MCP & Tool Use", "AI Coding"]
+    tags: ["qa", "browser-automation", "mobile-testing", "mcp", "self-healing", "regression-testing"]
+    maturity: "promising"
+    license: "FSL-1.1-ALv2 (converts to Apache-2.0 two years after release)"
+    maintained: true
+    install: "Run npm install -D agent-qa, then initialize a workspace with npx agent-qa init --platform web."
+    why_awesome: "Combines three reusable SKILL.md workflows with persistent test memory, selector self-healing, evidence-backed results, and a 33-tool MCP interface."
+    type: "QA Skill Pack and MCP Tool"
+    input: "Natural-language test intent, an initialized workspace, target app access, and a configured model provider."
+    output: "Executable test definitions, run artifacts, failure evidence, triage findings, and debug/fix guidance."
+    tools: ["Codex", "Claude Code", "Node.js", "Browser", "Playwright", "Model Context Protocol", "CLI"]
+    safety_notes: "Tests can mutate target applications; use test accounts and environments, keep provider credentials out of version control, and review the FSL terms before adoption."

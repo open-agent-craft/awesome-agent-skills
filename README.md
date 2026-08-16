@@ -77,6 +77,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [Agent QA](https://github.com/vostride/agent-qa) | Codex / Claude Code / General Agent Skills | QA Skill Pack and MCP Tool | Promising | `qa`, `browser-automation`, `mobile-testing`, `mcp`, `self-healing`, `regression-testing` |
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | Recommended | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | Promising | `aider`, `conventions`, `coding-agent`, `repo-context` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | Recommended | `claude`, `agent-skills`, `skill-format`, `code-execution` |
@@ -142,6 +143,7 @@ Browser testing, interaction, screenshots, site QA, and web task automation reci
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [Agent QA](https://github.com/vostride/agent-qa) | Codex / Claude Code / General Agent Skills | QA Skill Pack and MCP Tool | Promising | `qa`, `browser-automation`, `mobile-testing`, `mcp`, `self-healing`, `regression-testing` |
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Browser Use](https://github.com/browser-use/browser-use) | General Agent Skills | Tool Use Recipe | Promising | `browser`, `automation`, `web-agent`, `tool-use` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
@@ -184,6 +186,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [Agent Protocol](https://github.com/agi-inc/agent-protocol) | General Agent Skills | Protocol | Experimental | `agent-protocol`, `api`, `interoperability`, `tasks` |
+| [Agent QA](https://github.com/vostride/agent-qa) | Codex / Claude Code / General Agent Skills | QA Skill Pack and MCP Tool | Promising | `qa`, `browser-automation`, `mobile-testing`, `mcp`, `self-healing`, `regression-testing` |
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | Recommended | `cookbook`, `claude`, `examples`, `tool-use` |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Collection | Promising | `mcp`, `awesome-list`, `servers`, `integrations` |
@@ -237,6 +240,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [Agent QA](https://github.com/vostride/agent-qa) | Codex / Claude Code / General Agent Skills | QA Skill Pack and MCP Tool | Promising | `qa`, `browser-automation`, `mobile-testing`, `mcp`, `self-healing`, `regression-testing` |
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | Recommended | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
@@ -286,6 +290,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 ### Claude Code
 
+- [Agent QA](https://github.com/vostride/agent-qa) - QA skill pack and MCP-enabled tool for authoring, running, triaging, and debugging natural-language web and mobile tests. Why awesome: Combines three reusable SKILL.md workflows with persistent test memory, selector self-healing, evidence-backed results, and a 33-tool MCP interface.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. Why awesome: Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
@@ -293,6 +298,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 ### Codex
 
+- [Agent QA](https://github.com/vostride/agent-qa) - QA skill pack and MCP-enabled tool for authoring, running, triaging, and debugging natural-language web and mobile tests. Why awesome: Combines three reusable SKILL.md workflows with persistent test memory, selector self-healing, evidence-backed results, and a 33-tool MCP interface.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
@@ -316,6 +322,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 ### General Agent Skills
 
 - [Agent Protocol](https://github.com/agi-inc/agent-protocol) - Specification and examples for a common API layer around agent task execution. Why awesome: A useful comparison point when thinking about skill portability and agent interoperability.
+- [Agent QA](https://github.com/vostride/agent-qa) - QA skill pack and MCP-enabled tool for authoring, running, triaging, and debugging natural-language web and mobile tests. Why awesome: Combines three reusable SKILL.md workflows with persistent test memory, selector self-healing, evidence-backed results, and a 33-tool MCP interface.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Aider Conventions](https://aider.chat/docs/usage/conventions.html) - Aider documentation for repository conventions that guide AI coding changes. Why awesome: A concise example of how coding agents benefit from persistent repo-specific rules.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows. Why awesome: Strong source of Claude-oriented tool-use and workflow examples.
