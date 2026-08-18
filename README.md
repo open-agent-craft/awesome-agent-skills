@@ -154,6 +154,7 @@ Presentation, image, UI review, brand guide, poster, storyboard, and video workf
 |---|---|---|---|---|
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | Recommended | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | Recommended | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) | Codex / Claude Code / MCP | Skill Collection | Promising | `video`, `editing`, `generation`, `timeline`, `mcp`, `agent-skills` |
 
 ## Productivity
 
@@ -206,6 +207,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | Recommended | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
 | [OpenAI Function Calling Guide](https://developers.openai.com/api/docs/guides/function-calling) | OpenAI / General Agent Skills | Tool Use Recipe | Recommended | `function-calling`, `tool-use`, `schemas`, `structured-outputs` |
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | Recommended | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) | Codex / Claude Code / MCP | Skill Collection | Promising | `video`, `editing`, `generation`, `timeline`, `mcp`, `agent-skills` |
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | Recommended | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
@@ -290,6 +292,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. Why awesome: Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 
 ### Codex
 
@@ -298,6 +301,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. Why awesome: Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 
 ### Continue
 
@@ -368,6 +372,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers and clients. Why awesome: A practical foundation for writing strongly typed tool servers for coding agents.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Reference MCP server implementations maintained for demonstrating MCP features, SDK usage, tools, prompts, and resources. Why awesome: Best starting point for understanding the shape of MCP servers without relying on vendor-specific wrappers.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. Why awesome: Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server that gives agents browser automation capabilities through Playwright. Why awesome: A practical bridge between agent reasoning and real browser state for QA and workflow automation.
 
 ### Node.js
