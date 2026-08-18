@@ -156,6 +156,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 |---|---|---|---|---|
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | 推荐 | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) | Codex / Claude Code / MCP | Skill Collection | 值得关注 | `video`, `editing`, `generation`, `timeline`, `mcp`, `agent-skills` |
 
 ## Productivity
 
@@ -208,6 +209,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
 | [OpenAI Function Calling Guide](https://developers.openai.com/api/docs/guides/function-calling) | OpenAI / General Agent Skills | Tool Use Recipe | 推荐 | `function-calling`, `tool-use`, `schemas`, `structured-outputs` |
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | 推荐 | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) | Codex / Claude Code / MCP | Skill Collection | 值得关注 | `video`, `editing`, `generation`, `timeline`, `mcp`, `agent-skills` |
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | 推荐 | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
@@ -292,6 +294,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. 为什么值得看：Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 
 ### Codex
 
@@ -300,6 +303,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. 为什么值得看：Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 
 ### Continue
 
@@ -370,6 +374,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers and clients. 为什么值得看：A practical foundation for writing strongly typed tool servers for coding agents.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Reference MCP server implementations maintained for demonstrating MCP features, SDK usage, tools, prompts, and resources. 为什么值得看：Best starting point for understanding the shape of MCP servers without relying on vendor-specific wrappers.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) - A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines. 为什么值得看：Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server that gives agents browser automation capabilities through Playwright. 为什么值得看：A practical bridge between agent reasoning and real browser state for QA and workflow automation.
 
 ### Node.js

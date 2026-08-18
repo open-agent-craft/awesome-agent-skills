@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "OrkasVideoStudio"
+    url: "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills"
+    description: "A 14-skill video-production collection backed by a local TypeScript CLI, MCP server, and editable plan.json timelines."
+    platform: ["Codex", "Claude Code", "MCP"]
+    category: ["Design & Media", "MCP & Tool Use"]
+    tags: ["video", "editing", "generation", "timeline", "mcp", "agent-skills"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Clone the repository and install selected folders from packages/skills after reviewing their prerequisites."
+    why_awesome: "Routes briefs through focused planning, editing, generation, caption, QA, and assembly skills while keeping the timeline editable."
+    type: "Skill Collection"
+    input: "Video brief, source media, and optional generation-provider configuration."
+    output: "Editable plan.json timeline, media artifacts, validation results, and rendered video."
+    tools: ["Codex", "Claude Code", "Model Context Protocol", "CLI", "Node.js"]
+    safety_notes: "Reads and writes local media and may run FFmpeg; optional provider-backed generation sends prompts or assets with user-supplied keys. Review commands and approve publishing separately."
