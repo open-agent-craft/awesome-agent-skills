@@ -79,6 +79,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 |---|---|---|---|---|
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | Recommended | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | Promising | `aider`, `conventions`, `coding-agent`, `repo-context` |
+| [AIPM](https://www.aipm-registry.com/) | Codex / Claude Code / Cursor / General Agent Skills | Package Manager Tool | Promising | `package-manager`, `skill-registry`, `agent-skills`, `cursor`, `claude-code`, `codex` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | Recommended | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | Recommended | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
 | [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) | Cursor | Collection | Promising | `cursor`, `rules`, `frameworks`, `templates` |
@@ -184,6 +185,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [Agent Protocol](https://github.com/agi-inc/agent-protocol) | General Agent Skills | Protocol | Experimental | `agent-protocol`, `api`, `interoperability`, `tasks` |
+| [AIPM](https://www.aipm-registry.com/) | Codex / Claude Code / Cursor / General Agent Skills | Package Manager Tool | Promising | `package-manager`, `skill-registry`, `agent-skills`, `cursor`, `claude-code`, `codex` |
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | Recommended | `cookbook`, `claude`, `examples`, `tool-use` |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Collection | Promising | `mcp`, `awesome-list`, `servers`, `integrations` |
@@ -219,6 +221,7 @@ AGENTS.md, CLAUDE.md, GEMINI.md, Copilot instructions, Cursor rules, Windsurf ru
 | [Agent Protocol](https://github.com/agi-inc/agent-protocol) | General Agent Skills | Protocol | Experimental | `agent-protocol`, `api`, `interoperability`, `tasks` |
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | Recommended | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | Promising | `aider`, `conventions`, `coding-agent`, `repo-context` |
+| [AIPM](https://www.aipm-registry.com/) | Codex / Claude Code / Cursor / General Agent Skills | Package Manager Tool | Promising | `package-manager`, `skill-registry`, `agent-skills`, `cursor`, `claude-code`, `codex` |
 | [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) | Cursor | Collection | Promising | `cursor`, `rules`, `frameworks`, `templates` |
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | Recommended | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) | Codex | Instruction Guide | Recommended | `agents-md`, `codex`, `project-context`, `instruction-precedence` |
@@ -286,6 +289,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 ### Claude Code
 
+- [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for reusable AI agent skills, instructions, and workflows across coding tools. Why awesome: Provides one searchable registry and install workflow for reusable agent packages across several coding tools.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. Why awesome: Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
@@ -294,6 +298,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
+- [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for reusable AI agent skills, instructions, and workflows across coding tools. Why awesome: Provides one searchable registry and install workflow for reusable agent packages across several coding tools.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
@@ -306,6 +311,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 ### Cursor
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
+- [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for reusable AI agent skills, instructions, and workflows across coding tools. Why awesome: Provides one searchable registry and install workflow for reusable agent packages across several coding tools.
 - [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) - Community collection of Cursor rules for frameworks, languages, libraries, and project conventions. Why awesome: Useful as a pattern bank for writing project-aware Cursor rules instead of generic prompts.
 - [Cursor Rules](https://cursor.com/docs/rules) - Official Cursor documentation for project, team, user rules, and AGENTS.md support. Why awesome: Useful for making Cursor behave consistently inside large repos and framework-specific codebases.
 
@@ -318,6 +324,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Agent Protocol](https://github.com/agi-inc/agent-protocol) - Specification and examples for a common API layer around agent task execution. Why awesome: A useful comparison point when thinking about skill portability and agent interoperability.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Aider Conventions](https://aider.chat/docs/usage/conventions.html) - Aider documentation for repository conventions that guide AI coding changes. Why awesome: A concise example of how coding agents benefit from persistent repo-specific rules.
+- [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for reusable AI agent skills, instructions, and workflows across coding tools. Why awesome: Provides one searchable registry and install workflow for reusable agent packages across several coding tools.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows. Why awesome: Strong source of Claude-oriented tool-use and workflow examples.
 - [Browser Use](https://github.com/browser-use/browser-use) - Library for building AI agents that control browsers and perform web tasks. Why awesome: A useful reference for browser task decomposition, observations, and action loops.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.

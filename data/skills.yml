@@ -803,5 +803,5 @@ skills:
     type: "Package Manager Tool"
     input: "A package name or search query for an agent skill, instruction set, or workflow."
     output: "A versioned agent package installed for the selected coding tool."
-    tools: ["AIPM CLI", "Codex", "Claude Code", "Cursor"]
+    tools: ["Codex", "Claude Code", "Cursor"]
     safety_notes: "Review package files and requested tool permissions before installation."
