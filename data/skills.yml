@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "AIPM"
+    url: "https://www.aipm-registry.com/"
+    description: "Open-source package manager and registry for reusable AI agent skills, instructions, and workflows across coding tools."
+    platform: ["Codex", "Claude Code", "Cursor", "General Agent Skills"]
+    category: ["AI Coding", "Agent Instructions", "MCP & Tool Use"]
+    tags: ["package-manager", "skill-registry", "agent-skills", "cursor", "claude-code", "codex"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Run npm install -g @aipm-registry/cli, then use aipm search and aipm install."
+    why_awesome: "Provides one searchable registry and install workflow for reusable agent packages across several coding tools."
+    type: "Package Manager Tool"
+    input: "A package name or search query for an agent skill, instruction set, or workflow."
+    output: "A versioned agent package installed for the selected coding tool."
+    tools: ["AIPM CLI", "Codex", "Claude Code", "Cursor"]
+    safety_notes: "Review package files and requested tool permissions before installation."
