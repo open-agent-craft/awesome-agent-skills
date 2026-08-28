@@ -181,7 +181,7 @@ skills:
     category: ["Agent Instructions", "AI Coding", "MCP & Tool Use"]
     tags: ["copilot", "awesome-list", "custom-agents", "instructions"]
     maturity: "recommended"
-    license: "MIT"
+    license: "Apache-2.0"
     maintained: true
     install: "Copy selected instruction, agent, or prompt files into your repo after review."
     why_awesome: "A broad reference catalog for how the Copilot ecosystem packages reusable agent behavior."
