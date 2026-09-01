@@ -77,6 +77,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) | Codex | Agent Skill | Promising | `codex`, `agent-skill`, `workflow`, `coordination`, `recovery`, `verification` |
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | Recommended | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | Promising | `aider`, `conventions`, `coding-agent`, `repo-context` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | Recommended | `claude`, `agent-skills`, `skill-format`, `code-execution` |
@@ -237,6 +238,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) | Codex | Agent Skill | Promising | `codex`, `agent-skill`, `workflow`, `coordination`, `recovery`, `verification` |
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | Recommended | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
@@ -293,6 +295,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 ### Codex
 
+- [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) - Per-user Codex skill that coordinates complex work through bounded dependency graphs, revisioned local state, explicit write scopes, and reconciliation before retrying uncertain operations. Why awesome: Useful when one long Codex task needs inspectable dependencies, resumable progress, scoped ownership, and repeatable closeout checks without making specialist agents mandatory.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
