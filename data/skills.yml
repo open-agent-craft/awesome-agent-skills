@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Agent Coordinator"
+    url: "https://github.com/alanhoff/agent-coordinator"
+    description: "Per-user Codex skill that coordinates complex work through bounded dependency graphs, revisioned local state, explicit write scopes, and reconciliation before retrying uncertain operations."
+    platform: ["Codex"]
+    category: ["AI Coding", "Evaluation & Testing"]
+    tags: ["codex", "agent-skill", "workflow", "coordination", "recovery", "verification"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Ask Codex to follow the repository's INSTALL.md; it installs the self-contained skill for the current user at ~/.agents/skills/coordinator and requires Python 3.11 or newer."
+    why_awesome: "Useful when one long Codex task needs inspectable dependencies, resumable progress, scoped ownership, and repeatable closeout checks without making specialist agents mandatory."
+    type: "Agent Skill"
+    input: "A complex Codex request, repository context, constraints, and acceptance criteria."
+    output: "A bounded workflow result with revisioned node state, scoped evidence, repeatable checks, and a closeout summary."
+    tools: ["Codex", "Python"]
+    safety_notes: "The skill can coordinate requested file changes and execute authored proof commands within the active Codex session's existing permissions. Review commands and write scopes before use; Codex permissions and approval rules still apply."

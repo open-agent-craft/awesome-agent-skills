@@ -79,6 +79,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) | Codex | Agent Skill | 值得关注 | `codex`, `agent-skill`, `workflow`, `coordination`, `recovery`, `verification` |
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | 推荐 | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | 值得关注 | `aider`, `conventions`, `coding-agent`, `repo-context` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
@@ -239,6 +240,7 @@ Skill 评估、回归检查、基准测试、质量闸门和评测工作流。
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) | Codex | Agent Skill | 值得关注 | `codex`, `agent-skill`, `workflow`, `coordination`, `recovery`, `verification` |
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | 推荐 | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | 推荐 | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | 值得关注 | `llm-security`, `testing`, `scan`, `risk` |
@@ -295,6 +297,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Codex
 
+- [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) - Per-user Codex skill that coordinates complex work through bounded dependency graphs, revisioned local state, explicit write scopes, and reconciliation before retrying uncertain operations. 为什么值得看：Useful when one long Codex task needs inspectable dependencies, resumable progress, scoped ownership, and repeatable closeout checks without making specialist agents mandatory.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
