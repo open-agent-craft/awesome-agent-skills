@@ -1,4 +1,21 @@
 skills:
+  - name: "EyrieCommander Codex Skills"
+    url: "https://github.com/EyrieCommander/codex-skills"
+    description: "A field-tested collection of Codex skills for task-history recovery, local-state maintenance, workspace relinking, research, writing, media, and source-intake workflows."
+    platform: ["Codex"]
+    category: ["AI Coding", "Productivity", "Safety & Security"]
+    tags: ["codex", "agent-skills", "history-repair", "maintenance", "workflow"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Run `npx skills add EyrieCommander/codex-skills` or install selected folders from the repository's skills directory."
+    why_awesome: "Pairs ordinary reusable workflows with unusually practical recovery tools for Codex tasks that become slow, lose history, or retain stale workspace paths."
+    type: "Skill Collection"
+    input: "A Codex maintenance, recovery, research, writing, media, or workflow task."
+    output: "A scoped workflow result, repair plan, or verified local-state change depending on the selected skill."
+    tools: ["Codex", "Python", "CLI"]
+    safety_notes: "Some recovery skills can modify private local Codex state; they default to reporting or dry runs, require explicit apply boundaries, and create backups before mutation."
+
   - name: "OpenAI Codex Agent Skills"
     url: "https://developers.openai.com/codex/skills"
     description: "Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets."

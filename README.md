@@ -85,6 +85,7 @@ Skills and workflows for code review, bug fixing, refactoring, tests, docs, migr
 | [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) | Codex | Instruction Guide | Recommended | `agents-md`, `codex`, `project-context`, `instruction-precedence` |
 | [Continue Custom Slash Commands](https://docs.continue.dev/customize/deep-dives/slash-commands) | Continue / VS Code / JetBrains | Workflow Recipe | Promising | `slash-commands`, `continue`, `workflow`, `instructions` |
 | [Cursor Rules](https://cursor.com/docs/rules) | Cursor | Instruction Guide | Recommended | `cursor`, `rules`, `mdc`, `project-instructions` |
+| [EyrieCommander Codex Skills](https://github.com/EyrieCommander/codex-skills) | Codex | Skill Collection | Promising | `codex`, `agent-skills`, `history-repair`, `maintenance`, `workflow` |
 | [Gemini CLI GEMINI.md](https://geminicli.com/docs/cli/gemini-md/) | Gemini CLI | Instruction Guide | Recommended | `gemini`, `gemini-md`, `context`, `imports` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | Recommended | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Instruction Guide | Recommended | `copilot`, `instructions`, `github`, `repository-standards` |
@@ -162,6 +163,7 @@ Calendar, email, task, note, meeting, and knowledge workflow recipes for agents.
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
+| [EyrieCommander Codex Skills](https://github.com/EyrieCommander/codex-skills) | Codex | Skill Collection | Promising | `codex`, `agent-skills`, `history-repair`, `maintenance`, `workflow` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## DevOps
@@ -256,6 +258,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
+| [EyrieCommander Codex Skills](https://github.com/EyrieCommander/codex-skills) | Codex | Skill Collection | Promising | `codex`, `agent-skills`, `history-repair`, `maintenance`, `workflow` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | General Agent Skills | Safety Tool | Promising | `guardrails`, `validation`, `structured-output`, `safety` |
 | [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) | General Agent Skills | Evaluation Tool | Promising | `evals`, `agent-evaluation`, `tool-use`, `safety` |
@@ -295,6 +298,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
+- [EyrieCommander Codex Skills](https://github.com/EyrieCommander/codex-skills) - A field-tested collection of Codex skills for task-history recovery, local-state maintenance, workspace relinking, research, writing, media, and source-intake workflows. Why awesome: Pairs ordinary reusable workflows with unusually practical recovery tools for Codex tasks that become slow, lose history, or retain stale workspace paths.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
