@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "BulkPublish Social Media Content Skills"
+    url: "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills"
+    description: "A 24-skill collection for AI agents to plan, adapt, review, schedule, and publish social media content through BulkPublish."
+    platform: ["Codex", "Claude Code", "General Agent Skills"]
+    category: ["Writing & Content", "Productivity", "MCP & Tool Use"]
+    tags: ["social-media", "content", "bulkpublish", "scheduling", "analytics"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Open the linked collection and copy the desired SKILL.md folder into the agent's skills directory."
+    why_awesome: "Provides an end-to-end social publishing workflow with review, approvals, scheduling, and analytics through a documented API/MCP service."
+    type: "Skill Collection"
+    input: "Campaign goals, platform requirements, media, copy, and publishing instructions."
+    output: "Reviewed, platform-adapted, scheduled, or published social media content and performance reports."
+    tools: ["BulkPublish API", "BulkPublish MCP"]
+    safety_notes: "Require explicit approval before external publishing and keep credentials in the agent's secure configuration."
