@@ -1,4 +1,22 @@
 skills:
+  - name: "shre-skills"
+    url: "https://skills.shreyam1008.com.np/"
+    description: "Portable SKILL.md collection for web development, performance, caching, security, and GPU/WASM rendering."
+    platform: ["Codex", "General Agent Skills"]
+    category: ["AI Coding"]
+    tags: ["web-development", "performance", "typescript", "react"]
+    maturity: "experimental"
+    license: "MIT"
+    maintained: true
+    install: "npx skills add shreyam1008/shre-skills"
+    why_awesome: "Groups focused web-engineering workflows with pinned primary-source references and per-skill installation."
+    type: "Skill Collection"
+    input: "A web-development task and repository context."
+    output: "Task-specific implementation and verification guidance for a coding agent."
+    tools: ["Codex"]
+    safety_notes: "Review selected skills before installation; shell, file, and deployment actions require the host agent's normal permissions. No independent safety certification is claimed."
+    featured: false
+
   - name: "OpenAI Codex Agent Skills"
     url: "https://developers.openai.com/codex/skills"
     description: "Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets."
