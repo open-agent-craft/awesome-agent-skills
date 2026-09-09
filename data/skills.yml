@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "code-review-skill"
+    url: "https://github.com/amirbena/code-review-skill"
+    description: "Two portable Agent Skills that share one review standard: local review of committed, staged, unstaged, and untracked changes, and GitHub pull-request review with optional inline comments."
+    platform: ["Claude Code", "Codex", "Cursor", "General Agent Skills"]
+    category: ["AI Coding"]
+    tags: ["code-review", "pull-request-review", "git-diff", "severity-triage", "read-only"]
+    maturity: "promising"
+    license: "Apache-2.0"
+    maintained: true
+    install: "Run ./scripts/package-skills.sh local|github|all (or package-skills.ps1 on Windows), then unzip the archive into your runtime's Skill directory such as .claude/skills/, keeping SKILL.md at the root."
+    why_awesome: "Both skills apply one shared severity, evidence, and scope standard, and derive the REVIEW CLEAN or CHANGES REQUIRED result mechanically from whether any P0/P1 finding exists, with reviewed-SHA tracking and delta re-review so a changed HEAD is never approved under an earlier review."
+    type: "Coding Skill"
+    input: "Repository changes (committed delta, staged, unstaged, untracked) or a GitHub pull-request diff, plus optional context such as requirements, ADRs, or acceptance criteria."
+    output: "Evidence-backed P0/P1/P2 findings with architectural-placement reasoning, machine metadata such as base and HEAD SHAs and change counts, and a deterministic REVIEW CLEAN or CHANGES REQUIRED result."
+    tools: ["Claude Code", "GitHub", "CLI"]
+    safety_notes: "Reads Git state, file contents, shell command output, and GitHub PR data; review execution is read-only and never edits, commits, pushes, or merges code. Local review is opt-in per run, and publishing PR comments or an Approve/Request Changes verdict requires separate GitHub authorization."
