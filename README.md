@@ -9,6 +9,7 @@ This repository is not just a link dump. It is meant to be an agent capability e
 ## Contents
 
 - [Featured](#featured)
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 - [What Is An Agent Skill](#what-is-an-agent-skill)
 - [Categories](#categories)
 - [AI Coding](#ai-coding)
