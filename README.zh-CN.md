@@ -164,6 +164,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) | Claude Code / Codex / General Agent Skills | Agent Skill | 实验性 | `knowledge`, `memory`, `discovery`, `privacy` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## DevOps
@@ -193,6 +194,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | 推荐 | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub MCP Server Guide](https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/) | MCP / GitHub Copilot / VS Code | MCP Recipe | 推荐 | `github`, `mcp`, `repository`, `access-control` |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) | Claude Code / Codex / General Agent Skills | Agent Skill | 实验性 | `knowledge`, `memory`, `discovery`, `privacy` |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | General Agent Skills | Workflow Framework | 推荐 | `agent-workflow`, `graph`, `state-machine`, `tool-routing` |
 | [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) | General Agent Skills | Workflow Framework | 值得关注 | `workflow`, `rag`, `tool-use`, `orchestration` |
 | [MCP For Beginners](https://github.com/microsoft/mcp-for-beginners/) | MCP | Curriculum | 值得关注 | `mcp`, `workshop`, `learning`, `tools` |
@@ -291,12 +293,14 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. 为什么值得看：Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) - CLI skill for discovering local skills, PKM notes, encrypted knowledge and opaque credential capabilities. 为什么值得看：Provides bounded discovery across skills, PKM and encrypted records while keeping secret values behind separate credential adapters.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) - CLI skill for discovering local skills, PKM notes, encrypted knowledge and opaque credential capabilities. 为什么值得看：Provides bounded discovery across skills, PKM and encrypted records while keeping secret values behind separate credential adapters.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
@@ -327,6 +331,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming and optimizing language model pipelines with declarative modules and evaluation-driven improvement. 为什么值得看：Useful for evolving fragile prompts into measurable, optimized agent components.
 - [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) - Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities. 为什么值得看：Useful for teams that want automated checks around LLM behavior and safety issues.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for validating, correcting, and constraining LLM outputs with validators and structured checks. 为什么值得看：Helpful when skill outputs need validation before tools, files, or downstream systems consume them.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) - CLI skill for discovering local skills, PKM notes, encrypted knowledge and opaque credential capabilities. 为什么值得看：Provides bounded discovery across skills, PKM and encrypted records while keeping secret values behind separate credential adapters.
 - [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) - Evaluation framework for large language model tasks, including tool-use and agent-style evaluations. 为什么值得看：Good fit for teams that want deeper evaluation harnesses around agent workflows.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for building stateful, multi-step agent workflows with explicit graph control. 为什么值得看：Good reference for turning ad hoc multi-step tool use into explicit, inspectable workflow graphs.
 - [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) - Workflow abstractions for orchestrating multi-step LLM applications and tool pipelines. 为什么值得看：Good reference when research or RAG skills need explicit steps, events, and retry logic.

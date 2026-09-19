@@ -788,3 +788,21 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Hyperconsciousness"
+    url: "https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness"
+    description: "CLI skill for discovering local skills, PKM notes, encrypted knowledge and opaque credential capabilities."
+    platform: ["Claude Code", "Codex", "General Agent Skills"]
+    category: ["Productivity", "MCP & Tool Use"]
+    tags: ["knowledge", "memory", "discovery", "privacy"]
+    maturity: "experimental"
+    license: "MIT"
+    maintained: true
+    install: "Build hc from the source repository, then run scripts/install-agent-skill.sh from the skill directory; a PowerShell installer is also provided."
+    why_awesome: "Provides bounded discovery across skills, PKM and encrypted records while keeping secret values behind separate credential adapters."
+    type: "Agent Skill"
+    input: "A search query, an explicit scope, and a result limit."
+    output: "Matching skill metadata, note excerpts, authorized knowledge, or opaque capability metadata."
+    tools: []
+    safety_notes: "Developer alpha. Installing the skill grants no private-store or credential access. Review local permissions and grants; decrypted records returned to a hosted model are visible to that provider."
+    featured: false
