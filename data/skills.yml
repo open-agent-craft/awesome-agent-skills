@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Agent Skills English Productivity Pack"
+    url: "https://github.com/alapha888/agent-skills-en"
+    description: "Five MIT-licensed SKILL.md workflows for everyday knowledge work: proofreading technical writing, conventional commit messages, meeting notes to structured minutes, a five-axis code review checklist, and a deep-research framework."
+    platform: ["Claude Code", "Codex", "General Agent Skills"]
+    category: ["Productivity", "Writing & Content", "AI Coding"]
+    tags: ["productivity", "proofreading", "commit-messages", "meeting-notes", "code-review", "research"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Copy a skill folder from skills/ into your agent's skills directory, or run: npx skills add alapha888/agent-skills-en"
+    why_awesome: "Each skill is a short, checkable workflow with explicit guardrails: the proofreader flags issues instead of rewriting, and the meeting-notes and research skills mark missing information instead of inventing it."
+    type: "Skill Collection"
+    input: "Draft text, staged git changes, raw meeting notes, a diff, or a research question, depending on the skill."
+    output: "An itemized proofreading checklist, a conventional commit message, structured minutes with owners and deadlines, capped review comments, or a conclusion-first research report."
+    tools: ["Claude Code", "Codex"]
+    safety_notes: "Instruction-only Markdown with no scripts or tool calls; each skill reads only the text or diff the user provides."

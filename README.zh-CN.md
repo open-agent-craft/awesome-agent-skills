@@ -79,6 +79,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) | Claude Code / Codex / General Agent Skills | Skill Collection | 值得关注 | `productivity`, `proofreading`, `commit-messages`, `meeting-notes`, `code-review`, `research` |
 | [AGENTS.md](https://agents.md/) | Codex / GitHub Copilot / Cursor / General Agent Skills | Instruction Format | 推荐 | `agents-md`, `project-instructions`, `coding-agent`, `repo-context` |
 | [Aider Conventions](https://aider.chat/docs/usage/conventions.html) | Aider / General Agent Skills | Instruction Guide | 值得关注 | `aider`, `conventions`, `coding-agent`, `repo-context` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
@@ -117,6 +118,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) | Claude Code / Codex / General Agent Skills | Skill Collection | 值得关注 | `productivity`, `proofreading`, `commit-messages`, `meeting-notes`, `code-review`, `research` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `claude`, `examples`, `tool-use` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | 推荐 | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
@@ -163,6 +165,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) | Claude Code / Codex / General Agent Skills | Skill Collection | 值得关注 | `productivity`, `proofreading`, `commit-messages`, `meeting-notes`, `code-review`, `research` |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 
@@ -288,6 +291,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Claude Code
 
+- [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) - Five MIT-licensed SKILL.md workflows for everyday knowledge work: proofreading technical writing, conventional commit messages, meeting notes to structured minutes, a five-axis code review checklist, and a deep-research framework. 为什么值得看：Each skill is a short, checkable workflow with explicit guardrails: the proofreader flags issues instead of rewriting, and the meeting-notes and research skills mark missing information instead of inventing it.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. 为什么值得看：Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
@@ -295,6 +299,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Codex
 
+- [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) - Five MIT-licensed SKILL.md workflows for everyday knowledge work: proofreading technical writing, conventional commit messages, meeting notes to structured minutes, a five-axis code review checklist, and a deep-research framework. 为什么值得看：Each skill is a short, checkable workflow with explicit guardrails: the proofreader flags issues instead of rewriting, and the meeting-notes and research skills mark missing information instead of inventing it.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
@@ -318,6 +323,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 ### General Agent Skills
 
 - [Agent Protocol](https://github.com/agi-inc/agent-protocol) - Specification and examples for a common API layer around agent task execution. 为什么值得看：A useful comparison point when thinking about skill portability and agent interoperability.
+- [Agent Skills English Productivity Pack](https://github.com/alapha888/agent-skills-en) - Five MIT-licensed SKILL.md workflows for everyday knowledge work: proofreading technical writing, conventional commit messages, meeting notes to structured minutes, a five-axis code review checklist, and a deep-research framework. 为什么值得看：Each skill is a short, checkable workflow with explicit guardrails: the proofreader flags issues instead of rewriting, and the meeting-notes and research skills mark missing information instead of inventing it.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Aider Conventions](https://aider.chat/docs/usage/conventions.html) - Aider documentation for repository conventions that guide AI coding changes. 为什么值得看：A concise example of how coding agents benefit from persistent repo-specific rules.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows. 为什么值得看：Strong source of Claude-oriented tool-use and workflow examples.
