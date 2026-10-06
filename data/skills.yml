@@ -788,3 +788,21 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Publish with Shipvela"
+    url: "https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish"
+    description: "Publishes static websites through hosted OAuth MCP with owner approval, exact deployment tracking, and build logs."
+    platform: ["Codex", "Claude Code"]
+    category: ["DevOps"]
+    tags: ["website-publishing", "mcp", "oauth", "owner-approval"]
+    maturity: "experimental"
+    license: "MIT client; proprietary hosted service"
+    maintained: true
+    install: "Review the canonical SKILL.md, configure Shipvela MCP, and approve the OAuth connection in your agent host."
+    why_awesome: "The staged file manifest lets owners review a small website before an agent tracks the exact publishing job and returns its live URL."
+    type: "Skill"
+    input: "Public static build files or an owned, supported GitHub project."
+    output: "An owner review link, deployment status, bounded logs, and the resulting HTTPS URL."
+    tools: ["Codex", "Claude Code"]
+    safety_notes: "Requires a verified Shipvela account and owner-approved OAuth. Static uploads require human file review; never approve your own upload. Hobby has 3 projects and 20 publishes/month. Do not upload secrets, change billing, or bypass quotas."
+    featured: false

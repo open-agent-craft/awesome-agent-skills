@@ -174,6 +174,7 @@ CI repair, release, deployment, infrastructure triage, observability, and operat
 | [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) | MCP / Python | Tool SDK | Recommended | `mcp`, `python`, `sdk`, `server` |
 | [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) | MCP / Node.js | Tool SDK | Recommended | `mcp`, `typescript`, `sdk`, `server` |
 | [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | MCP / General Agent Skills | MCP Recipe | Recommended | `mcp`, `servers`, `reference-implementation`, `tools` |
+| [Publish with Shipvela](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish) | Codex / Claude Code | Skill | Experimental | `website-publishing`, `mcp`, `oauth`, `owner-approval` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | Promising | `issue-to-pr`, `coding-agent`, `github`, `automation` |
 
@@ -290,6 +291,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Publish with Shipvela](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish) - Publishes static websites through hosted OAuth MCP with owner approval, exact deployment tracking, and build logs. Why awesome: The staged file manifest lets owners review a small website before an agent tracks the exact publishing job and returns its live URL.
 
 ### Codex
 
@@ -298,6 +300,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [Publish with Shipvela](https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish) - Publishes static websites through hosted OAuth MCP with owner approval, exact deployment tracking, and build logs. Why awesome: The staged file manifest lets owners review a small website before an agent tracks the exact publishing job and returns its live URL.
 
 ### Continue
 
