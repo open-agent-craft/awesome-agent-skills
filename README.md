@@ -152,8 +152,10 @@ Presentation, image, UI review, brand guide, poster, storyboard, and video workf
 
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
+| [AINDF screen author](https://oleg.design/ai-native-design-framework) | Claude Code / Codex | Skill + MCP | Promising | `design-system`, `ui`, `screenspec`, `validation` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | Recommended | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | Recommended | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [UNSLOP audit](https://oleg.design/unslop) | Claude Code / Codex | Skill + Plugin | Promising | `design-system`, `ui-audit`, `quality`, `fix-plan` |
 
 ## Productivity
 
@@ -184,6 +186,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [Agent Protocol](https://github.com/agi-inc/agent-protocol) | General Agent Skills | Protocol | Experimental | `agent-protocol`, `api`, `interoperability`, `tasks` |
+| [AINDF screen author](https://oleg.design/ai-native-design-framework) | Claude Code / Codex | Skill + MCP | Promising | `design-system`, `ui`, `screenspec`, `validation` |
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | Recommended | `cookbook`, `claude`, `examples`, `tool-use` |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Collection | Promising | `mcp`, `awesome-list`, `servers`, `integrations` |
@@ -248,6 +251,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | Recommended | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | General Agent Skills | Evaluation Tool | Recommended | `prompt-testing`, `evals`, `regression`, `red-team` |
+| [UNSLOP audit](https://oleg.design/unslop) | Claude Code / Codex | Skill + Plugin | Promising | `design-system`, `ui-audit`, `quality`, `fix-plan` |
 
 ## Safety & Security
 
@@ -286,18 +290,22 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 ### Claude Code
 
+- [AINDF screen author](https://oleg.design/ai-native-design-framework) - Compose and validate ScreenSpec JSON against version-pinned component, property and slot contracts from an AINDF design-system MCP. Why awesome: Checks proposed screens against actual design-system contracts and records missing capabilities as extension requests.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. Why awesome: Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [UNSLOP audit](https://oleg.design/unslop) - Audit generated interfaces against design-system contracts and version-pinned rules, verify findings and write fix plans. Why awesome: Separates source audits and verified fix plans from an explicit execution mode, keeping design-system findings traceable to a pinned canon.
 
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
+- [AINDF screen author](https://oleg.design/ai-native-design-framework) - Compose and validate ScreenSpec JSON against version-pinned component, property and slot contracts from an AINDF design-system MCP. Why awesome: Checks proposed screens against actual design-system contracts and records missing capabilities as extension requests.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [UNSLOP audit](https://oleg.design/unslop) - Audit generated interfaces against design-system contracts and version-pinned rules, verify findings and write fix plans. Why awesome: Separates source audits and verified fix plans from an explicit execution mode, keeping design-system findings traceable to a pinned canon.
 
 ### Continue
 

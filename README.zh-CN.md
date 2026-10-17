@@ -154,8 +154,10 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [AINDF screen author](https://oleg.design/ai-native-design-framework) | Claude Code / Codex | Skill + MCP | 值得关注 | `design-system`, `ui`, `screenspec`, `validation` |
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | 推荐 | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [UNSLOP audit](https://oleg.design/unslop) | Claude Code / Codex | Skill + Plugin | 值得关注 | `design-system`, `ui-audit`, `quality`, `fix-plan` |
 
 ## Productivity
 
@@ -186,6 +188,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
 | [Agent Protocol](https://github.com/agi-inc/agent-protocol) | General Agent Skills | Protocol | 实验性 | `agent-protocol`, `api`, `interoperability`, `tasks` |
+| [AINDF screen author](https://oleg.design/ai-native-design-framework) | Claude Code / Codex | Skill + MCP | 值得关注 | `design-system`, `ui`, `screenspec`, `validation` |
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | 值得关注 | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `claude`, `examples`, `tool-use` |
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Collection | 值得关注 | `mcp`, `awesome-list`, `servers`, `integrations` |
@@ -250,6 +253,7 @@ Skill 评估、回归检查、基准测试、质量闸门和评测工作流。
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | 推荐 | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Promptfoo](https://github.com/promptfoo/promptfoo) | General Agent Skills | Evaluation Tool | 推荐 | `prompt-testing`, `evals`, `regression`, `red-team` |
+| [UNSLOP audit](https://oleg.design/unslop) | Claude Code / Codex | Skill + Plugin | 值得关注 | `design-system`, `ui-audit`, `quality`, `fix-plan` |
 
 ## Safety & Security
 
@@ -288,18 +292,22 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Claude Code
 
+- [AINDF screen author](https://oleg.design/ai-native-design-framework) - Compose and validate ScreenSpec JSON against version-pinned component, property and slot contracts from an AINDF design-system MCP. 为什么值得看：Checks proposed screens against actual design-system contracts and records missing capabilities as extension requests.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. 为什么值得看：Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [UNSLOP audit](https://oleg.design/unslop) - Audit generated interfaces against design-system contracts and version-pinned rules, verify findings and write fix plans. 为什么值得看：Separates source audits and verified fix plans from an explicit execution mode, keeping design-system findings traceable to a pinned canon.
 
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
+- [AINDF screen author](https://oleg.design/ai-native-design-framework) - Compose and validate ScreenSpec JSON against version-pinned component, property and slot contracts from an AINDF design-system MCP. 为什么值得看：Checks proposed screens against actual design-system contracts and records missing capabilities as extension requests.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [UNSLOP audit](https://oleg.design/unslop) - Audit generated interfaces against design-system contracts and version-pinned rules, verify findings and write fix plans. 为什么值得看：Separates source audits and verified fix plans from an explicit execution mode, keeping design-system findings traceable to a pinned canon.
 
 ### Continue
 

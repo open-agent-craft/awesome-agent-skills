@@ -1,4 +1,38 @@
 skills:
+  - name: "AINDF screen author"
+    url: "https://oleg.design/ai-native-design-framework"
+    description: "Compose and validate ScreenSpec JSON against version-pinned component, property and slot contracts from an AINDF design-system MCP."
+    platform: ["Claude Code", "Codex"]
+    category: ["Design & Media", "MCP & Tool Use"]
+    tags: ["design-system", "ui", "screenspec", "validation"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Follow https://github.com/0design/ai-native-design-framework; requires a compatible AINDF-enabled design system and connected MCP server."
+    why_awesome: "Checks proposed screens against actual design-system contracts and records missing capabilities as extension requests."
+    type: "Skill + MCP"
+    input: "Screen requirements and a compatible version-pinned design-system bundle."
+    output: "ScreenSpec JSON and validation findings."
+    tools: ["Claude Code", "Codex"]
+    safety_notes: "Writes specifications and invokes a local design-system MCP. Validation is separate from application builds, owner acceptance and release. Review setup and MCP access before use."
+
+  - name: "UNSLOP audit"
+    url: "https://oleg.design/unslop"
+    description: "Audit generated interfaces against design-system contracts and version-pinned rules, verify findings and write fix plans."
+    platform: ["Claude Code", "Codex"]
+    category: ["Design & Media", "Evaluation & Testing"]
+    tags: ["design-system", "ui-audit", "quality", "fix-plan"]
+    maturity: "promising"
+    license: "MIT code and skills; CC BY 4.0 rule texts"
+    maintained: true
+    install: "Follow https://github.com/0design/unslop-skill for the full plugin; skill-only installation includes detector/client scripts but cannot issue a verified canon-based pass without the plugin dependency setup."
+    why_awesome: "Separates source audits and verified fix plans from an explicit execution mode, keeping design-system findings traceable to a pinned canon."
+    type: "Skill + Plugin"
+    input: "Interface source, design-system contracts and a connected version-pinned canon."
+    output: "Verified findings and a fix plan."
+    tools: ["Claude Code", "Codex"]
+    safety_notes: "Full audits require the plugin detector, canon client and connected canon. Audit reads source and writes plans; separate explicit execution applies one plan in an isolated worktree. Review file, shell and network access."
+
   - name: "OpenAI Codex Agent Skills"
     url: "https://developers.openai.com/codex/skills"
     description: "Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets."
