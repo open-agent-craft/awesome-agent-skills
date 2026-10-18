@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Solaris Dev Shop"
+    url: "https://github.com/Shaisolaris/solaris-dev-shop"
+    description: "MIT-licensed catalog of 61 portable specialist SKILL.md files across 12 departments, plus a chief-of-staff skill and an optional stdlib-only Python router."
+    platform: ["General Agent Skills"]
+    category: ["AI Coding"]
+    tags: ["skill-md", "routing", "specialists", "mit"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Clone the repository and run the README Try it commands. Requires Git and Python 3.10+. No account or API key is required to try the router."
+    why_awesome: "The router names one accountable lead and supporting specialists, returns a reviewable handoff, and sets performed_work to false."
+    type: "Skill Collection"
+    input: "A task description, or a known specialist skill name."
+    output: "A selected skill path and a reviewable handoff. The router does not implement the task."
+    tools: ["Python"]
+    safety_notes: "The router is stdlib-only and does not need an API key. Read each skill before use; a skill file may instruct an agent to use that agent's own tools."

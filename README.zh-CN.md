@@ -95,6 +95,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
 | [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) | Codex | Skill Format | 推荐 | `codex`, `skill-format`, `workflow`, `progressive-disclosure` |
 | [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) | Codex / MCP | Tool Guide | 推荐 | `codex`, `mcp`, `tool-use`, `configuration` |
+| [Solaris Dev Shop](https://github.com/Shaisolaris/solaris-dev-shop) | General Agent Skills | Skill Collection | 值得关注 | `skill-md`, `routing`, `specialists`, `mit` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | 值得关注 | `issue-to-pr`, `coding-agent`, `github`, `automation` |
 | [VS Code Copilot Custom Instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions) | GitHub Copilot / VS Code | Instruction Guide | 推荐 | `vscode`, `copilot`, `instructions`, `prompt-files` |
 
@@ -342,6 +343,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Security risks and guidance for LLM applications, including prompt injection, data leakage, and unsafe output handling. 为什么值得看：Essential security lens for any skill that reads untrusted content or invokes tools.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites. 为什么值得看：Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows. 为什么值得看：A mature reference for packaging business capabilities as callable tools and workflows.
+- [Solaris Dev Shop](https://github.com/Shaisolaris/solaris-dev-shop) - MIT-licensed catalog of 61 portable specialist SKILL.md files across 12 departments, plus a chief-of-staff skill and an optional stdlib-only Python router. 为什么值得看：The router names one accountable lead and supporting specialists, returns a reviewable handoff, and sets performed_work to false.
 - [Sweep AI](https://github.com/sweepai/sweep) - Open-source AI junior developer workflow for turning issues into code changes and pull requests. 为什么值得看：Useful pattern reference for issue triage, repo context gathering, and PR automation.
 
 ### GitHub
