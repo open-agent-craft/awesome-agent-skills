@@ -162,6 +162,7 @@ Calendar, email, task, note, meeting, and knowledge workflow recipes for agents.
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
+| [QFactory](https://github.com/0design/qfactory-skill) | Claude Code / Codex | Plugin + Skill | Promising | `agent-workflows`, `workflow-catalog`, `local-execution`, `human-approval` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## DevOps
@@ -208,6 +209,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | Recommended | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | Recommended | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
+| [QFactory](https://github.com/0design/qfactory-skill) | Claude Code / Codex | Plugin + Skill | Promising | `agent-workflows`, `workflow-catalog`, `local-execution`, `human-approval` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## Agent Instructions
@@ -290,6 +292,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [QFactory](https://github.com/0design/qfactory-skill) - Find, adapt and run reusable workflows from your existing agent. QFactory provides the catalog and plugin; Q-Core runs approved workflows locally. Why awesome: Keeps workflow discovery in the agent while separating catalog data, user approval and local execution ([website](https://qfactory.io)).
 
 ### Codex
 
@@ -298,6 +301,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [QFactory](https://github.com/0design/qfactory-skill) - Find, adapt and run reusable workflows from your existing agent. QFactory provides the catalog and plugin; Q-Core runs approved workflows locally. Why awesome: Keeps workflow discovery in the agent while separating catalog data, user approval and local execution ([website](https://qfactory.io)).
 
 ### Continue
 

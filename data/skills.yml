@@ -755,6 +755,23 @@ skills:
     tools: ["Python"]
     safety_notes: "Multi-agent systems need clear stop conditions and human approval for risky actions."
 
+  - name: "QFactory"
+    url: "https://github.com/0design/qfactory-skill"
+    description: "Find, adapt and run reusable workflows from your existing agent. QFactory provides the catalog and plugin; Q-Core runs approved workflows locally."
+    platform: ["Claude Code", "Codex"]
+    category: ["Productivity", "MCP & Tool Use"]
+    tags: ["agent-workflows", "workflow-catalog", "local-execution", "human-approval"]
+    maturity: "promising"
+    license: "MIT (code); CC BY 4.0 (skill text)"
+    maintained: true
+    install: "In Claude Code, add 0design/qfactory-skill as a plugin marketplace and install qfactory@qfactory; see the repository for Codex support. Local Q-Core execution requires Node.js 20.3 or newer."
+    why_awesome: "Keeps workflow discovery in the agent while separating catalog data, user approval and local execution ([website](https://qfactory.io))."
+    type: "Plugin + Skill"
+    input: "A task, selected workflow inputs and an accepted execution plan."
+    output: "A selected or adapted workflow and its local execution result, with the actual run status reported."
+    tools: ["Claude Code", "Codex", "Model Context Protocol", "Node.js"]
+    safety_notes: "The catalog is read-only. Local execution may write files, call paid model APIs or send results to configured destinations; review the plan, permissions and costs before approving. QFactory receives search text and usage metadata; do not submit secrets to the catalog."
+
   - name: "Semantic Kernel"
     url: "https://github.com/microsoft/semantic-kernel"
     description: "SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows."
