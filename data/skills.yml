@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Ukiyo Compute Skill"
+    url: "https://github.com/ukiyocompute/ukiyo-skill"
+    description: "SKILL.md that teaches an agent to rent an on-demand GPU on Ukiyo with the Ukiyo CLI, run its workload over SSH, and terminate the GPU."
+    platform: ["General Agent Skills", "Claude Code"]
+    category: ["DevOps", "MCP & Tool Use"]
+    tags: ["gpu", "gpu-rental", "cloud-compute", "ssh", "cli"]
+    maturity: "experimental"
+    license: "MIT"
+    maintained: true
+    install: "Copy the pinned SKILL.md from the repository README into your agent's skills folder and install the Ukiyo CLI separately."
+    why_awesome: "Gives an agent a guarded end-to-end GPU workflow: explicit Terms acceptance, spending limits, idempotent rentals that never double-rent on retry, and confirmed termination."
+    type: "Tool Use Recipe"
+    input: "A GPU workload, GPU model and budget."
+    output: "Command output from a rented GPU, then confirmed termination and final charges."
+    tools: ["CLI", "Node.js", "Claude Code"]
+    safety_notes: "Spends prepaid account credit and runs shell commands on a rented machine; use a scoped agent key with spending limits and terminate when finished."

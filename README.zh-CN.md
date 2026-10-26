@@ -178,6 +178,7 @@ CI 修复、发布、部署、基础设施排障、可观测性和运维相关�
 | [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | MCP / General Agent Skills | MCP Recipe | 推荐 | `mcp`, `servers`, `reference-implementation`, `tools` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | 值得关注 | `issue-to-pr`, `coding-agent`, `github`, `automation` |
+| [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) | General Agent Skills / Claude Code | Tool Use Recipe | 实验性 | `gpu`, `gpu-rental`, `cloud-compute`, `ssh`, `cli` |
 
 ## MCP 与 Tool Use
 
@@ -211,6 +212,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | 推荐 | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
+| [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) | General Agent Skills / Claude Code | Tool Use Recipe | 实验性 | `gpu`, `gpu-rental`, `cloud-compute`, `ssh`, `cli` |
 
 ## Agent Instructions
 
@@ -292,6 +294,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) - SKILL.md that teaches an agent to rent an on-demand GPU on Ukiyo with the Ukiyo CLI, run its workload over SSH, and terminate the GPU. 为什么值得看：Gives an agent a guarded end-to-end GPU workflow: explicit Terms acceptance, spending limits, idempotent rentals that never double-rent on retry, and confirmed termination.
 
 ### Codex
 
@@ -343,6 +346,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites. 为什么值得看：Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows. 为什么值得看：A mature reference for packaging business capabilities as callable tools and workflows.
 - [Sweep AI](https://github.com/sweepai/sweep) - Open-source AI junior developer workflow for turning issues into code changes and pull requests. 为什么值得看：Useful pattern reference for issue triage, repo context gathering, and PR automation.
+- [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) - SKILL.md that teaches an agent to rent an on-demand GPU on Ukiyo with the Ukiyo CLI, run its workload over SSH, and terminate the GPU. 为什么值得看：Gives an agent a guarded end-to-end GPU workflow: explicit Terms acceptance, spending limits, idempotent rentals that never double-rent on retry, and confirmed termination.
 
 ### GitHub
 

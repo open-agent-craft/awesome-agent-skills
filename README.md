@@ -176,6 +176,7 @@ CI repair, release, deployment, infrastructure triage, observability, and operat
 | [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | MCP / General Agent Skills | MCP Recipe | Recommended | `mcp`, `servers`, `reference-implementation`, `tools` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 | [Sweep AI](https://github.com/sweepai/sweep) | GitHub / General Agent Skills | Workflow Recipe | Promising | `issue-to-pr`, `coding-agent`, `github`, `automation` |
+| [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) | General Agent Skills / Claude Code | Tool Use Recipe | Experimental | `gpu`, `gpu-rental`, `cloud-compute`, `ssh`, `cli` |
 
 ## MCP & Tool Use
 
@@ -209,6 +210,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | Recommended | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | Recommended | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
+| [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) | General Agent Skills / Claude Code | Tool Use Recipe | Experimental | `gpu`, `gpu-rental`, `cloud-compute`, `ssh`, `cli` |
 
 ## Agent Instructions
 
@@ -290,6 +292,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) - SKILL.md that teaches an agent to rent an on-demand GPU on Ukiyo with the Ukiyo CLI, run its workload over SSH, and terminate the GPU. Why awesome: Gives an agent a guarded end-to-end GPU workflow: explicit Terms acceptance, spending limits, idempotent rentals that never double-rent on retry, and confirmed termination.
 
 ### Codex
 
@@ -341,6 +344,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites. Why awesome: Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows. Why awesome: A mature reference for packaging business capabilities as callable tools and workflows.
 - [Sweep AI](https://github.com/sweepai/sweep) - Open-source AI junior developer workflow for turning issues into code changes and pull requests. Why awesome: Useful pattern reference for issue triage, repo context gathering, and PR automation.
+- [Ukiyo Compute Skill](https://github.com/ukiyocompute/ukiyo-skill) - SKILL.md that teaches an agent to rent an on-demand GPU on Ukiyo with the Ukiyo CLI, run its workload over SSH, and terminate the GPU. Why awesome: Gives an agent a guarded end-to-end GPU workflow: explicit Terms acceptance, spending limits, idempotent rentals that never double-rent on retry, and confirmed termination.
 
 ### GitHub
 
