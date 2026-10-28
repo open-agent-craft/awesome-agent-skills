@@ -163,6 +163,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 
 | Skill | 平台 | 类型 | 成熟度 | 标签 |
 |---|---|---|---|---|
+| [Agent Notifications](https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications) | Claude Code / Codex | Tool-Use Skill | 值得关注 | `notifications`, `desktop`, `attention`, `progress`, `mcp` |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `roles`, `workflow`, `automation` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 
@@ -288,6 +289,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Claude Code
 
+- [Agent Notifications](https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications) - Skill for sending desktop attention and progress alerts during Claude Code and Codex tasks through a configured notification plugin. 为什么值得看：Separates attention and progress alerts from lifecycle hooks and documents consent, stable request IDs, and delivery uncertainty.
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. 为什么值得看：Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
@@ -295,6 +297,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 
 ### Codex
 
+- [Agent Notifications](https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications) - Skill for sending desktop attention and progress alerts during Claude Code and Codex tasks through a configured notification plugin. 为什么值得看：Separates attention and progress alerts from lifecycle hooks and documents consent, stable request IDs, and delivery uncertainty.
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. 为什么值得看：Useful when teams need predictable instruction layering across global and project scopes.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
