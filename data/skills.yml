@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Agent Notifications"
+    url: "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications"
+    description: "Skill for sending desktop attention and progress alerts during Claude Code and Codex tasks through a configured notification plugin."
+    platform: ["Claude Code", "Codex"]
+    category: ["Productivity"]
+    tags: ["notifications", "desktop", "attention", "progress", "mcp"]
+    maturity: "promising"
+    license: "GPL-3.0-or-later"
+    maintained: true
+    install: "Use the project installer for Claude and/or Codex; see https://github.com/777genius/agent-notifications/blob/main/docs/INSTALLATION.md."
+    why_awesome: "Separates attention and progress alerts from lifecycle hooks and documents consent, stable request IDs, and delivery uncertainty."
+    type: "Tool-Use Skill"
+    input: "A notification title, body, category, event-specific request ID, and navigation preference."
+    output: "A desktop notification receipt reporting submitted, suppressed, rejected, or unknown delivery."
+    tools: ["Claude Code", "Codex"]
+    safety_notes: "Requires local plugin setup and OS notification permissions. Notification text may appear on the lock screen. Avoid duplicate native prompts and do not retry uncertain delivery automatically."
