@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Datacircle"
+    url: "https://datacircle.dev"
+    description: "Find the best GTM APIs. Query every plan of every GTM API on our sheet, with its price, speed and score, from the open API at api.datacircle.dev/v1 or the skill file datacircle.dev/SKILL.md."
+    platform: ["Claude", "Claude Code", "Codex", "General Agent Skills"]
+    category: ["Research & Search", "Data Analysis", "MCP & Tool Use"]
+    tags: ["gtm", "api-comparison", "pricing", "mcp"]
+    maturity: "promising"
+    license: "Docs"
+    maintained: true
+    install: "Give your agent https://datacircle.dev/SKILL.md, or add the MCP server https://api.datacircle.dev/mcp. No key needed."
+    why_awesome: "Answers which GTM API to buy from, with every plan's price and score, from one open call."
+    type: "Data Source"
+    input: "An API, provider or price question."
+    output: "Plans and ranks from the Datacircle sheet."
+    tools: ["Claude", "Claude Code"]
+    safety_notes: "Read-only, no key, 60 calls a minute from one address."

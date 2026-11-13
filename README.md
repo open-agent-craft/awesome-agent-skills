@@ -104,6 +104,7 @@ Reusable research workflows for web search, literature review, market research, 
 |---|---|---|---|---|
 | [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) | Claude / General Agent Skills | Recipe Collection | Recommended | `cookbook`, `claude`, `examples`, `tool-use` |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
+| [Datacircle](https://datacircle.dev) | Claude / Claude Code / Codex / General Agent Skills | Data Source | Promising | `gtm`, `api-comparison`, `pricing`, `mcp` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) | General Agent Skills | Workflow Framework | Promising | `workflow`, `rag`, `tool-use`, `orchestration` |
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
@@ -127,6 +128,7 @@ CSV, spreadsheet, SQL, BI dashboard, report generation, data cleaning, and analy
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | Recommended | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [Datacircle](https://datacircle.dev) | Claude / Claude Code / Codex / General Agent Skills | Data Source | Promising | `gtm`, `api-comparison`, `pricing`, `mcp` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | General Agent Skills | Workflow Framework | Recommended | `agent-workflow`, `graph`, `state-machine`, `tool-routing` |
 | [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) | General Agent Skills | Workflow Framework | Promising | `workflow`, `rag`, `tool-use`, `orchestration` |
@@ -189,6 +191,7 @@ Model Context Protocol servers, SDKs, tool routing, function calling, and multi-
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Collection | Promising | `mcp`, `awesome-list`, `servers`, `integrations` |
 | [Browser Use](https://github.com/browser-use/browser-use) | General Agent Skills | Tool Use Recipe | Promising | `browser`, `automation`, `web-agent`, `tool-use` |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
+| [Datacircle](https://datacircle.dev) | Claude / Claude Code / Codex / General Agent Skills | Data Source | Promising | `gtm`, `api-comparison`, `pricing`, `mcp` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | Recommended | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub MCP Server Guide](https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/) | MCP / GitHub Copilot / VS Code | MCP Recipe | Recommended | `github`, `mcp`, `repository`, `access-control` |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | General Agent Skills | Workflow Framework | Recommended | `agent-workflow`, `graph`, `state-machine`, `tool-routing` |
@@ -283,18 +286,21 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) - Anthropic examples and recipes for building with Claude, tools, retrieval, and workflows. Why awesome: Strong source of Claude-oriented tool-use and workflow examples.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
+- [Datacircle](https://datacircle.dev) - Find the best GTM APIs. Query every plan of every GTM API on our sheet, with its price, speed and score, from the open API at api.datacircle.dev/v1 or the skill file datacircle.dev/SKILL.md. Why awesome: Answers which GTM API to buy from, with every plan's price and score, from one open call.
 
 ### Claude Code
 
 - [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) - Official Claude documentation for pre-built and custom Agent Skills across Claude products and the API. Why awesome: Explains the production model for skills, including document skills, custom uploads, and code-execution containers.
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. Why awesome: A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
+- [Datacircle](https://datacircle.dev) - Find the best GTM APIs. Query every plan of every GTM API on our sheet, with its price, speed and score, from the open API at api.datacircle.dev/v1 or the skill file datacircle.dev/SKILL.md. Why awesome: Answers which GTM API to buy from, with every plan's price and score, from one open call.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 
 ### Codex
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
+- [Datacircle](https://datacircle.dev) - Find the best GTM APIs. Query every plan of every GTM API on our sheet, with its price, speed and score, from the open API at api.datacircle.dev/v1 or the skill file datacircle.dev/SKILL.md. Why awesome: Answers which GTM API to buy from, with every plan's price and score, from one open call.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.
@@ -322,6 +328,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 - [Browser Use](https://github.com/browser-use/browser-use) - Library for building AI agents that control browsers and perform web tasks. Why awesome: A useful reference for browser task decomposition, observations, and action loops.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. Why awesome: Useful for converting broad task requests into durable instruction formats.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-based AI agents and task workflows. Why awesome: A useful pattern source for decomposing repeatable workflows into roles and tasks.
+- [Datacircle](https://datacircle.dev) - Find the best GTM APIs. Query every plan of every GTM API on our sheet, with its price, speed and score, from the open API at api.datacircle.dev/v1 or the skill file datacircle.dev/SKILL.md. Why awesome: Answers which GTM API to buy from, with every plan's price and score, from one open call.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming and optimizing language model pipelines with declarative modules and evaluation-driven improvement. Why awesome: Useful for evolving fragile prompts into measurable, optimized agent components.
 - [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) - Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities. Why awesome: Useful for teams that want automated checks around LLM behavior and safety issues.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for validating, correcting, and constraining LLM outputs with validators and structured checks. Why awesome: Helpful when skill outputs need validation before tools, files, or downstream systems consume them.
