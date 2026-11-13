@@ -788,3 +788,39 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Kling AI Plugin Skill (Global)"
+    url: "https://www.npmjs.com/package/@klingai/plugin-global"
+    description: "Official Global-region kling-ai-plugin Skill with a bundled CLI for image/video creation, reusable Elements, motion control, and task tracking."
+    platform: ["General Agent Skills"]
+    category: ["Design & Media"]
+    tags: ["kling", "image-generation", "video-generation", "oauth", "global"]
+    maturity: "promising"
+    license: "UNLICENSED (public npm distribution; not open source)"
+    maintained: true
+    install: "npm i -g @klingai/plugin-global@latest --registry=https://registry.npmjs.org --allow-scripts=@klingai/plugin-global; restart the assistant, then use kling-plugin login and kling-plugin who_am_i."
+    why_awesome: "Connects a reusable creation workflow to the official regional runtime, including references, task status, and account-dependent capability checks."
+    type: "Skill + CLI"
+    input: "Text prompts and authorized reference media; a matching regional Kling account."
+    output: "Generated images or videos and generation task status."
+    tools: []
+    safety_notes: "Generation consumes credits and sends prompts/reference media to https://kling.ai/mcp/plugin; confirm data and cost before submitting. Accounts, credits, and tasks are region-specific. Install the complete package, not SKILL.md alone. Both regions share the kling-plugin command; select the appropriate regional package. Review installation scripts and do not assume a security audit or transferable credits."
+    featured: false
+
+  - name: "Kling AI Plugin Skill (China)"
+    url: "https://www.npmjs.com/package/@klingai/plugin-cn"
+    description: "Official China-region kling-ai-plugin Skill with a bundled CLI for image/video creation, reusable Elements, motion control, and task tracking."
+    platform: ["General Agent Skills"]
+    category: ["Design & Media"]
+    tags: ["kling", "image-generation", "video-generation", "oauth", "china"]
+    maturity: "promising"
+    license: "UNLICENSED (public npm distribution; not open source)"
+    maintained: true
+    install: "npm i -g @klingai/plugin-cn@latest --registry=https://registry.npmjs.org --allow-scripts=@klingai/plugin-cn; restart the assistant, then use kling-plugin login and kling-plugin who_am_i."
+    why_awesome: "Connects a reusable creation workflow to the official regional runtime, including references, task status, and account-dependent capability checks."
+    type: "Skill + CLI"
+    input: "Text prompts and authorized reference media; a matching regional Kling account."
+    output: "Generated images or videos and generation task status."
+    tools: []
+    safety_notes: "Generation consumes credits and sends prompts/reference media to https://klingai.com/mcp/plugin; confirm data and cost before submitting. Accounts, credits, and tasks are region-specific. Install the complete package, not SKILL.md alone. Both regions share the kling-plugin command; select the appropriate regional package. Review installation scripts and do not assume a security audit or transferable credits."
+    featured: false

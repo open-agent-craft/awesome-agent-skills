@@ -156,6 +156,8 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 |---|---|---|---|---|
 | [Anthropic Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Claude / Claude Code | Skill Format | 推荐 | `claude`, `agent-skills`, `skill-format`, `code-execution` |
 | [Anthropic Skills Repository](https://github.com/anthropics/skills) | Claude / Claude Code | Skill Collection | 推荐 | `examples`, `pdf`, `docx`, `xlsx`, `pptx`, `skill-patterns` |
+| [Kling AI Plugin Skill (China)](https://www.npmjs.com/package/@klingai/plugin-cn) | General Agent Skills | Skill + CLI | 值得关注 | `kling`, `image-generation`, `video-generation`, `oauth`, `china` |
+| [Kling AI Plugin Skill (Global)](https://www.npmjs.com/package/@klingai/plugin-global) | General Agent Skills | Skill + CLI | 值得关注 | `kling`, `image-generation`, `video-generation`, `oauth`, `global` |
 
 ## Productivity
 
@@ -328,6 +330,8 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) - Open-source testing framework for detecting risks in AI applications, including LLM vulnerabilities. 为什么值得看：Useful for teams that want automated checks around LLM behavior and safety issues.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for validating, correcting, and constraining LLM outputs with validators and structured checks. 为什么值得看：Helpful when skill outputs need validation before tools, files, or downstream systems consume them.
 - [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) - Evaluation framework for large language model tasks, including tool-use and agent-style evaluations. 为什么值得看：Good fit for teams that want deeper evaluation harnesses around agent workflows.
+- [Kling AI Plugin Skill (China)](https://www.npmjs.com/package/@klingai/plugin-cn) - Official China-region kling-ai-plugin Skill with a bundled CLI for image/video creation, reusable Elements, motion control, and task tracking. 为什么值得看：Connects a reusable creation workflow to the official regional runtime, including references, task status, and account-dependent capability checks.
+- [Kling AI Plugin Skill (Global)](https://www.npmjs.com/package/@klingai/plugin-global) - Official Global-region kling-ai-plugin Skill with a bundled CLI for image/video creation, reusable Elements, motion control, and task tracking. 为什么值得看：Connects a reusable creation workflow to the official regional runtime, including references, task status, and account-dependent capability checks.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for building stateful, multi-step agent workflows with explicit graph control. 为什么值得看：Good reference for turning ad hoc multi-step tool use into explicit, inspectable workflow graphs.
 - [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) - Workflow abstractions for orchestrating multi-step LLM applications and tool pipelines. 为什么值得看：Good reference when research or RAG skills need explicit steps, events, and retry logic.
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building AI agents, multi-agent systems, and tool-using workflows. 为什么值得看：Useful comparison point for skill authors designing coordinated multi-agent behavior.
