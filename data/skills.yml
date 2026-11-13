@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "GoVisit Agent Skills Toolkit"
+    url: "https://github.com/inhotel-io/govisit-toolkit"
+    description: "A portable collection of 22 SKILL.md packages for reading GoVisit's published destination, place, collection, and documentation data through its public APIs."
+    platform: ["Codex", "Claude Code", "GitHub Copilot", "Cursor", "General Agent Skills"]
+    category: ["Research & Search", "MCP & Tool Use"]
+    tags: ["govisit", "travel-planning", "agent-skills", "mcp", "hospitality"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "Choose the All or audience-specific package and follow the official installation guide."
+    why_awesome: "It packages GoVisit's versioned read capabilities for reusable, cross-agent travel and place research workflows."
+    type: "Skill Collection"
+    input: "A travel-planning or place-research request and relevant context."
+    output: "Answers grounded in published GoVisit destination and place data."
+    tools: ["Codex", "Claude Code", "GitHub Copilot", "Cursor"]
+    safety_notes: "Skills perform public reads; follow GoVisit's data-use terms, including attribution and restrictions on bulk extraction, resale, and competing data products."
