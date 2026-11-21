@@ -240,6 +240,7 @@ Skill evaluation, regression checks, benchmark loops, review gates, and quality 
 | [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Claude / Claude Code / General Agent Skills | Prompt Pattern | Recommended | `claude`, `prompt-patterns`, `instructions`, `examples` |
 | [DSPy](https://github.com/stanfordnlp/dspy) | General Agent Skills | Evaluation Framework | Recommended | `optimization`, `evals`, `prompt-programming`, `pipelines` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
+| [Kuron Security](https://github.com/shirokun20/kuron-security) | omp / Claude Code / Codex / OpenCode / Antigravity | Vulnerability Scan | Promising | `code-review`, `sast`, `sarif`, `panel-verification` |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | General Agent Skills | Safety Tool | Promising | `guardrails`, `validation`, `structured-output`, `safety` |
 | [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) | General Agent Skills | Evaluation Tool | Promising | `evals`, `agent-evaluation`, `tool-use`, `safety` |
 | [Microsoft Prompt Flow](https://github.com/microsoft/promptflow) | Azure / General Agent Skills | Workflow Tool | Promising | `workflow`, `evaluation`, `prompt-engineering`, `llmops` |
@@ -257,6 +258,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 |---|---|---|---|---|
 | [Anthropic Computer Use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) | Claude | Tool Use Recipe | Promising | `computer-use`, `automation`, `screenshots`, `human-approval` |
 | [Giskard LLM Scan](https://github.com/Giskard-AI/giskard-oss) | General Agent Skills | Safety Tool | Promising | `llm-security`, `testing`, `scan`, `risk` |
+| [Kuron Security](https://github.com/shirokun20/kuron-security) | omp / Claude Code / Codex / OpenCode / Antigravity | Vulnerability Scan | Promising | `code-review`, `sast`, `sarif`, `panel-verification` |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | General Agent Skills | Safety Tool | Promising | `guardrails`, `validation`, `structured-output`, `safety` |
 | [Inspect Evals](https://github.com/UKGovernmentBEIS/inspect_ai) | General Agent Skills | Evaluation Tool | Promising | `evals`, `agent-evaluation`, `tool-use`, `safety` |
 | [Microsoft Presidio](https://github.com/microsoft/presidio) | General Agent Skills | Safety Tool | Recommended | `pii`, `redaction`, `privacy`, `data-protection` |
