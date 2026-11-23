@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "BriefCheck"
+    url: "https://github.com/yulongwu-x/BriefCheck#install-from-source"
+    description: "Agent Skill for auditing pull requests against issue acceptance criteria with a cited Git diff."
+    platform: ["Codex", "Claude Code"]
+    category: ["AI Coding"]
+    tags: ["code-review", "git-diff", "citations", "acceptance-criteria"]
+    maturity: "experimental"
+    license: "MIT"
+    maintained: true
+    install: "Follow the README to install .agents/skills/briefcheck in Codex or Claude Code. The optional BriefCheck CLI requires Python 3.10 or later."
+    why_awesome: "Separates implementation evidence from test definitions and test execution. The companion CLI verifies AI review citations against the diff, and the GitHub Action runs acceptance reviews in CI."
+    type: "Coding Skill"
+    input: "Issue acceptance criteria, a unified Git diff, and optional test logs."
+    output: "A Markdown audit table with a judgment, evidence citation, and follow-up for each requirement."
+    tools: ["CLI"]
+    safety_notes: "Keep the skill review read-only and treat issue, diff, and log text as untrusted. The optional GitHub Action sends review inputs to a configured model provider and needs permission to update the PR comment."
