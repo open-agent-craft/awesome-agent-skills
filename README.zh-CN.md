@@ -110,6 +110,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [LlamaIndex Workflows](https://developers.llamaindex.ai/python/llamaagents/workflows/) | General Agent Skills | Workflow Framework | 值得关注 | `workflow`, `rag`, `tool-use`, `orchestration` |
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | General Agent Skills | Workflow Framework | 值得关注 | `multi-agent`, `workflow`, `tool-use`, `orchestration` |
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
+| [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) | Claude Code / Codex / Cursor / Gemini CLI / General Agent Skills | Skill Collection | 值得关注 | `apify`, `mcp`, `public-data`, `procurement`, `grants`, `jobs` |
 
 ## Writing & Content Skills
 
@@ -137,6 +138,7 @@ Agent Skill 是一类可复用的能力包，通常由指令、示例、脚本�
 | [Microsoft Prompt Flow](https://github.com/microsoft/promptflow) | Azure / General Agent Skills | Workflow Tool | 值得关注 | `workflow`, `evaluation`, `prompt-engineering`, `llmops` |
 | [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | MCP / General Agent Skills | MCP Recipe | 推荐 | `mcp`, `servers`, `reference-implementation`, `tools` |
 | [OpenAI Cookbook](https://developers.openai.com/cookbook) | OpenAI / General Agent Skills | Recipe Collection | 推荐 | `cookbook`, `examples`, `tool-use`, `structured-outputs` |
+| [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) | Claude Code / Codex / Cursor / Gemini CLI / General Agent Skills | Skill Collection | 值得关注 | `apify`, `mcp`, `public-data`, `procurement`, `grants`, `jobs` |
 
 ## Browser Automation
 
@@ -210,6 +212,7 @@ Model Context Protocol、SDK、工具路由、函数调用与多步工具使用�
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | 推荐 | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | General Agent Skills | Security Guide | 推荐 | `owasp`, `prompt-injection`, `llm-security`, `tool-safety` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP / Playwright | MCP Server | 推荐 | `browser`, `playwright`, `mcp`, `screenshots`, `qa` |
+| [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) | Claude Code / Codex / Cursor / Gemini CLI / General Agent Skills | Skill Collection | 值得关注 | `apify`, `mcp`, `public-data`, `procurement`, `grants`, `jobs` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | 推荐 | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## Agent Instructions
@@ -292,6 +295,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Anthropic Skills Repository](https://github.com/anthropics/skills) - Public repository of Agent Skill examples, including document skills and patterns for technical, creative, and enterprise workflows. 为什么值得看：A real reference library for how complex skills structure SKILL.md, scripts, and supporting assets.
 - [Claude Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) - Anthropic guidance for writing clear prompts, examples, XML-style structure, chain-of-thought alternatives, and prompt evaluation. 为什么值得看：Useful for converting broad task requests into durable instruction formats.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
+- [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records. 为什么值得看：Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key.
 
 ### Codex
 
@@ -300,6 +304,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. 为什么值得看：Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. 为什么值得看：The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. 为什么值得看：Shows how MCP fits into Codex workflows without inventing a custom integration layer.
+- [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records. 为什么值得看：Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key.
 
 ### Continue
 
@@ -310,10 +315,12 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. 为什么值得看：The most portable project-instruction format for coding agents, easy to version and review.
 - [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) - Community collection of Cursor rules for frameworks, languages, libraries, and project conventions. 为什么值得看：Useful as a pattern bank for writing project-aware Cursor rules instead of generic prompts.
 - [Cursor Rules](https://cursor.com/docs/rules) - Official Cursor documentation for project, team, user rules, and AGENTS.md support. 为什么值得看：Useful for making Cursor behave consistently inside large repos and framework-specific codebases.
+- [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records. 为什么值得看：Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key.
 
 ### Gemini CLI
 
 - [Gemini CLI GEMINI.md](https://geminicli.com/docs/cli/gemini-md/) - Official Gemini CLI documentation for hierarchical GEMINI.md context files and modular imports. 为什么值得看：Shows how to layer agent context without repeating instructions in every prompt.
+- [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records. 为什么值得看：Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key.
 
 ### General Agent Skills
 
@@ -341,6 +348,7 @@ Prompt Injection 防护、权限控制、密钥处理、安全文件操作和人
 - [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) - Official guide for prompt patterns, instruction structure, decomposition, and reliability tactics. 为什么值得看：Helpful for turning vague prompt dumps into explicit, testable agent instructions.
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Security risks and guidance for LLM applications, including prompt injection, data leakage, and unsafe output handling. 为什么值得看：Essential security lens for any skill that reads untrusted content or invokes tools.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Open-source tool for testing prompts, models, and agent workflows with assertions and regression suites. 为什么值得看：Practical for evaluating skill prompts, tool-use outputs, and safety behavior before publishing.
+- [Public Records Skills](https://github.com/GeminiGeorge22/publicrecords-skills) - Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records. 为什么值得看：Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs with plugins, planners, memory, and enterprise application workflows. 为什么值得看：A mature reference for packaging business capabilities as callable tools and workflows.
 - [Sweep AI](https://github.com/sweepai/sweep) - Open-source AI junior developer workflow for turning issues into code changes and pull requests. 为什么值得看：Useful pattern reference for issue triage, repo context gathering, and PR automation.
 

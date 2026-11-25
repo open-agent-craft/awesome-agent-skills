@@ -788,3 +788,21 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Public Records Skills"
+    url: "https://github.com/GeminiGeorge22/publicrecords-skills"
+    description: "Agent Skills and a hosted Apify MCP server for official public data: US federal contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, and forecast track records."
+    platform: ["Claude Code", "Codex", "Cursor", "Gemini CLI", "General Agent Skills"]
+    category: ["Research & Search", "Data Analysis", "MCP & Tool Use"]
+    tags: ["apify", "mcp", "public-data", "procurement", "grants", "jobs"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "npx skills add GeminiGeorge22/publicrecords-skills"
+    why_awesome: "Gives coding agents a single, documented way to query official public-records sources, with runs billed to the user's own Apify account instead of a bundled key."
+    type: "Skill Collection"
+    input: "A research question about contracts, grants, tenders, jobs, company socials, Etsy, ads, odds, Spotify, or forecast track records."
+    output: "Structured rows from the matching official public source."
+    tools: ["Model Context Protocol", "Claude Code", "Codex", "Cursor", "Gemini CLI"]
+    safety_notes: "Remote MCP; Actor runs are pay-per-event and require the user's own Apify account or token. Do not commit tokens. Actors read public data only. Not legal, investment, or betting advice."
+    featured: false
