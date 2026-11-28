@@ -791,15 +791,15 @@ skills:
 
   - name: "GoVisit Agent Skills Toolkit"
     url: "https://github.com/inhotel-io/govisit-toolkit"
-    description: "A portable collection of 22 SKILL.md packages for reading GoVisit's published destination, place, collection, and documentation data through its public APIs."
+    description: "A portable collection of 25 Agent Skills for GoVisit travel discovery and public-content retrieval. Toolkit v0.2.3 updates all tool descriptions and adds nine MCP tools, including availability search."
     platform: ["Codex", "Claude Code", "GitHub Copilot", "Cursor", "General Agent Skills"]
     category: ["Research & Search", "MCP & Tool Use"]
     tags: ["govisit", "travel-planning", "agent-skills", "mcp", "hospitality"]
     maturity: "promising"
     license: "MIT"
     maintained: true
-    install: "Choose the All or audience-specific package and follow the official installation guide."
-    why_awesome: "It packages GoVisit's versioned read capabilities for reusable, cross-agent travel and place research workflows."
+    install: "Install toolkit v0.2.3 or newer; choose the All or audience-specific package and follow the official installation guide."
+    why_awesome: "It makes versioned GoVisit travel search, public-content retrieval, and availability lookup reusable across compatible agents."
     type: "Skill Collection"
     input: "A travel-planning or place-research request and relevant context."
     output: "Answers grounded in published GoVisit destination and place data."
